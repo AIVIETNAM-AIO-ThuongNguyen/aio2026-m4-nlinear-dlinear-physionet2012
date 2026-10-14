@@ -1,0 +1,216 @@
+{
+  "kiem_tra_luc": "2026-10-14T18:21:37",
+  "read_tag": "chot",
+  "run_tag": "bo_sung_11_co_che_neo",
+  "giao_thuc": "luoi_co_dinh_36h_vao_12h_ra",
+  "n_seeds": 3,
+  "neo_moi": [
+    "Z",
+    "O",
+    "E",
+    "F"
+  ],
+  "tong_hop": {
+    "Z": {
+      "mse_trung_binh": 0.4872585754484296,
+      "mse_do_lech_chuan": 0.00039162735630291244,
+      "mae_trung_binh": 0.4715171501322433,
+      "so_tham_so": 876,
+      "giay_trung_binh": 8.246666666666666,
+      "cac_gia_tri_mse": [
+        0.4875986358962098,
+        0.48683039574246284,
+        0.48734669470661635
+      ],
+      "nguon": "so tay nay"
+    },
+    "O": {
+      "mse_trung_binh": 0.4859634245780235,
+      "mse_do_lech_chuan": 6.634444796427925e-05,
+      "mae_trung_binh": 0.4702201273563607,
+      "so_tham_so": 876,
+      "giay_trung_binh": 11.046666666666667,
+      "cac_gia_tri_mse": [
+        0.4858870903051979,
+        0.48599598860192367,
+        0.4860071948269488
+      ],
+      "nguon": "so tay nay"
+    },
+    "E": {
+      "mse_trung_binh": 0.436130981299808,
+      "mse_do_lech_chuan": 0.00030422970640739963,
+      "mae_trung_binh": 0.4372979102661266,
+      "so_tham_so": 877,
+      "giay_trung_binh": 7.973333333333334,
+      "cac_gia_tri_mse": [
+        0.4357888922203897,
+        0.43623283761387305,
+        0.4363712140651613
+      ],
+      "nguon": "so tay nay"
+    },
+    "F": {
+      "mse_trung_binh": 0.43563726098992284,
+      "mse_do_lech_chuan": 0.0002813985095404513,
+      "mae_trung_binh": 0.4369243802022568,
+      "so_tham_so": 913,
+      "giay_trung_binh": 7.953333333333333,
+      "cac_gia_tri_mse": [
+        0.4353473691115587,
+        0.4356550961690747,
+        0.43590931768913516
+      ],
+      "nguon": "so tay nay"
+    },
+    "A": {
+      "mse_trung_binh": 0.48803148467291874,
+      "mse_do_lech_chuan": 0.00031349803171759144,
+      "mae_trung_binh": 0.4716980433374995,
+      "so_tham_so": 876,
+      "giay_trung_binh": 8.656666666666666,
+      "cac_gia_tri_mse": [
+        0.48767021892928886,
+        0.4881922099393916,
+        0.4882320251500758
+      ],
+      "nguon": "bo_sung_04_neo_abcd"
+    },
+    "B": {
+      "mse_trung_binh": 0.43603629987215403,
+      "mse_do_lech_chuan": 0.0003002346492432627,
+      "mae_trung_binh": 0.4372757183808977,
+      "so_tham_so": 876,
+      "giay_trung_binh": 8.02,
+      "cac_gia_tri_mse": [
+        0.4356979256740123,
+        0.436140156877622,
+        0.43627081706482784
+      ],
+      "nguon": "bo_sung_04_neo_abcd"
+    },
+    "C": {
+      "mse_trung_binh": 0.4507582165613255,
+      "mse_do_lech_chuan": 4.792230860684184e-05,
+      "mae_trung_binh": 0.44535043355789466,
+      "so_tham_so": 877,
+      "giay_trung_binh": 12.273333333333333,
+      "cac_gia_tri_mse": [
+        0.4507037759439169,
+        0.4507768512981594,
+        0.4507940224419001
+      ],
+      "nguon": "bo_sung_04_neo_abcd"
+    },
+    "D": {
+      "mse_trung_binh": 0.4427840435050731,
+      "mse_do_lech_chuan": 0.0003480345447394134,
+      "mae_trung_binh": 0.439678356603908,
+      "so_tham_so": 913,
+      "giay_trung_binh": 12.216666666666667,
+      "cac_gia_tri_mse": [
+        0.4425274278897356,
+        0.4426445092626345,
+        0.44318019336284914
+      ],
+      "nguon": "bo_sung_04_neo_abcd"
+    }
+  },
+  "thu_tu_tot_den_kem": [
+    "F",
+    "B",
+    "E",
+    "D",
+    "C",
+    "O",
+    "Z",
+    "A"
+  ],
+  "phan_ra_hieu_ung": {
+    "co_che_tru_va_cong_lai": 0.0007729092244891378,
+    "chon_gia_tri_that_thay_vi_gia_tri_dien": -0.051995184800764704,
+    "tinh_gan_nhat_so_voi_xa_nhat": -0.04992712470586946,
+    "cong_suy_giam_khoi_tao_co_manh": 0.014721916689171444,
+    "cong_suy_giam_khoi_tao_tai_neo_B": 9.468142765395315e-05,
+    "cong_rieng_tung_kenh_khoi_tao_tai_neo_B": -0.0003990388822311952
+  },
+  "bat_cap_theo_benh_nhan": {
+    "neoZ_tru_neoB": {
+      "hieu_mse": 0.05122227557627561,
+      "hieu_mse_ci": [
+        0.04400537929370071,
+        0.05838978343297983
+      ],
+      "hieu_mae": 0.03424143175134569,
+      "hieu_mae_ci": [
+        0.03200500617056034,
+        0.03640187348392698
+      ],
+      "p_hai_phia_mse": 0.0,
+      "p_hai_phia_mae": 0.0
+    },
+    "neoO_tru_neoB": {
+      "hieu_mse": 0.04992712470586941,
+      "hieu_mse_ci": [
+        0.04309769470005674,
+        0.056611220800412435
+      ],
+      "hieu_mae": 0.03294440897546316,
+      "hieu_mae_ci": [
+        0.03077239818708953,
+        0.03503345926449855
+      ],
+      "p_hai_phia_mse": 0.0,
+      "p_hai_phia_mae": 0.0
+    },
+    "neoE_tru_neoB": {
+      "hieu_mse": 9.468142765392669e-05,
+      "hieu_mse_ci": [
+        -3.031669637382528e-06,
+        0.00018424151165302835
+      ],
+      "hieu_mae": 2.21918852289719e-05,
+      "hieu_mae_ci": [
+        -1.2073188725436452e-05,
+        5.208239466184722e-05
+      ],
+      "p_hai_phia_mse": 0.06,
+      "p_hai_phia_mae": 0.218
+    },
+    "neoF_tru_neoB": {
+      "hieu_mse": -0.00039903888223121733,
+      "hieu_mse_ci": [
+        -0.0006291131738537806,
+        -0.000209507529220298
+      ],
+      "hieu_mae": -0.00035133817864082986,
+      "hieu_mae_ci": [
+        -0.00043439902622413736,
+        -0.00028398477790347095
+      ],
+      "p_hai_phia_mse": 0.0,
+      "p_hai_phia_mae": 0.0
+    }
+  },
+  "cong_suy_giam_da_hoc": {
+    "E": {
+      "he_so_suy_giam_trung_vi": 0.002220583613961935,
+      "ban_chu_ky_gio": 312.1463998030867
+    },
+    "F": {
+      "he_so_suy_giam_trung_vi": 0.0024756852071732283,
+      "ban_chu_ky_gio": 279.98195350183084
+    }
+  },
+  "env": {
+    "timestamp": "2026-10-14T18:19:35",
+    "run_tag": "bo_sung_11_co_che_neo",
+    "read_tag": "chot",
+    "python": "3.13.15",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130",
+    "matplotlib": "3.10.0",
+    "scipy": "1.16.3",
+    "gpu": "Tesla T4"
+  }
+}

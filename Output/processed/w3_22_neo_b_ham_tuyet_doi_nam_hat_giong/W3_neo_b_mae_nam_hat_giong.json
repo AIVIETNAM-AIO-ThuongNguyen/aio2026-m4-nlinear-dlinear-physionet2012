@@ -1,0 +1,75 @@
+{
+  "kiem_tra_luc": "2026-10-14T18:34:49",
+  "run_tag": "w3_22_neo_b_ham_tuyet_doi_nam_hat_giong",
+  "read_tag": "chot",
+  "n_seeds": 5,
+  "n_boot": 5000,
+  "mse_persistence": 0.5787542076552471,
+  "mae_persistence": 0.4659432814781591,
+  "mse_theo_hat_giong": [
+    0.43906766341521664,
+    0.4380654631017114,
+    0.438116537162929,
+    0.44021679685218174,
+    0.43982890638315186
+  ],
+  "mae_theo_hat_giong": [
+    0.42576283997081166,
+    0.42607709849824893,
+    0.425851974463203,
+    0.4257395112629778,
+    0.42567867261554887
+  ],
+  "nguon_theo_hat_giong": {
+    "0": "w3_16_ba_ham_mat_mat_hai_neo",
+    "1": "w3_16_ba_ham_mat_mat_hai_neo",
+    "2": "w3_16_ba_ham_mat_mat_hai_neo",
+    "3": "w3_22_neo_b_ham_tuyet_doi_nam_hat_giong",
+    "4": "w3_22_neo_b_ham_tuyet_doi_nam_hat_giong"
+  },
+  "thong_ke": {
+    "mse_ba": {
+      "so_hat_giong": 3,
+      "trung_binh": 0.4384165545599523,
+      "do_lech_chuan": 0.000564454777626163,
+      "bien_do": 0.0010022003135052304
+    },
+    "mse_nam": {
+      "so_hat_giong": 5,
+      "trung_binh": 0.43905907338303807,
+      "do_lech_chuan": 0.0009757914973367348,
+      "bien_do": 0.00215133375047033
+    },
+    "mae_ba": {
+      "so_hat_giong": 3,
+      "trung_binh": 0.4258973043107545,
+      "do_lech_chuan": 0.0001619589510525566,
+      "bien_do": 0.00031425852743727223
+    },
+    "mae_nam": {
+      "so_hat_giong": 5,
+      "trung_binh": 0.4258220193621581,
+      "do_lech_chuan": 0.0001555801644662511,
+      "bien_do": 0.00039842588270005974
+    }
+  },
+  "ty_so_do_lech_chuan_mse": 1.7287328161885078,
+  "ty_so_do_lech_chuan_mae": 0.9606147943978993,
+  "ky_nang_mae_nam_hat_giong": 0.08610760946851792,
+  "so_hat_giong_doi_chung": 3,
+  "nguon_doi_chung": "bo_sung_04_neo_abcd",
+  "kiem_dinh_mae_tru_mse": {
+    "hieu_mse": 0.0030227735108840966,
+    "hieu_mse_ci": [
+      -0.0005802086775456887,
+      0.006916680218337846
+    ],
+    "hieu_mae": -0.011453699018739615,
+    "hieu_mae_ci": [
+      -0.012804912547555738,
+      -0.0100825899240662
+    ],
+    "p_hai_phia_mse": 0.1072,
+    "p_hai_phia_mae": 0.0
+  }
+}

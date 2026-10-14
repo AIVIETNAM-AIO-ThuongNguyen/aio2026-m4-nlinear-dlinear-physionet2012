@@ -1,0 +1,77 @@
+{
+ "khai_bao_luc": "2026-10-14T18:59:37",
+ "ma_bam": "0b3b94e949f3dfb6fbac4be776d31f147e339b6fe522d335e63a55c88f19200e",
+ "ho_kiem_dinh": [
+  {
+   "ma": "K01",
+   "thuoc_do": "mse",
+   "ben_trai": "nlinear|B|huber",
+   "ben_phai": "giam_K5",
+   "so_tay": "W4_36",
+   "cau_hoi": "NLinear neo B hàm Huber có thắng mốc trọng số giảm K bằng 5 trên sai số bình phương không"
+  },
+  {
+   "ma": "K02",
+   "thuoc_do": "mae",
+   "ben_trai": "nlinear|B|huber",
+   "ben_phai": "giam_K5",
+   "so_tay": "W4_36",
+   "cau_hoi": "NLinear neo B hàm Huber có thắng mốc trọng số giảm K bằng 5 trên sai số tuyệt đối không"
+  },
+  {
+   "ma": "K03",
+   "thuoc_do": "mse",
+   "ben_trai": "nlinear|B|huber|tinh",
+   "ben_phai": "nlinear|B|huber",
+   "so_tay": "W4_37",
+   "cau_hoi": "Nhánh tĩnh có giảm sai số bình phương so với cùng mô hình không có nhánh tĩnh không"
+  },
+  {
+   "ma": "K04",
+   "thuoc_do": "mae",
+   "ben_trai": "nlinear|B|huber|tinh",
+   "ben_phai": "nlinear|B|huber",
+   "so_tay": "W4_37",
+   "cau_hoi": "Nhánh tĩnh có giảm sai số tuyệt đối so với cùng mô hình không có nhánh tĩnh không"
+  },
+  {
+   "ma": "K05",
+   "thuoc_do": "mse",
+   "ben_trai": "nlinear|B|huber|tinh",
+   "ben_phai": "nlinear|B|huber|tinh_xao_tron",
+   "so_tay": "W4_37",
+   "cau_hoi": "Lợi ích trên sai số bình phương có đến từ thông tin tĩnh thật chứ không chỉ từ tham số thêm không"
+  },
+  {
+   "ma": "K06",
+   "thuoc_do": "mae",
+   "ben_trai": "nlinear|B|huber|tinh",
+   "ben_phai": "nlinear|B|huber|tinh_xao_tron",
+   "so_tay": "W4_37",
+   "cau_hoi": "Lợi ích trên sai số tuyệt đối có đến từ thông tin tĩnh thật chứ không chỉ từ tham số thêm không"
+  }
+ ],
+ "quy_tac": {
+  "phuong_phap_hieu_chinh": "Holm",
+  "so_phep": 6,
+  "muc_alpha": 0.05,
+  "n_boot": 5000,
+  "san_p": 0.0001999600079984003,
+  "don_vi_lay_mau": "ho_so_benh_nhan",
+  "so_hat_giong": 5,
+  "delta_cho_kiem_dinh_chinh": 1.0,
+  "ket_luan_H2": {
+   "ung_ho": "K03 và K05 cùng âm và cùng có p hiệu chỉnh Holm dưới mức alpha",
+   "ung_ho_mot_phan": "K03 âm và có ý nghĩa sau Holm nhưng K05 không có ý nghĩa: lợi ích chưa tách được khỏi tham số thêm",
+   "khong_ung_ho": "các trường hợp còn lại"
+  },
+  "ket_luan_moc_manh": "K01 và K02 cùng âm và cùng có ý nghĩa sau Holm thì NLinear neo B hàm Huber thắng mốc mạnh trên cả hai thang",
+  "chon_delta": "Chọn ngưỡng có MSE_obs trung bình trên tập kiểm định thấp nhất qua năm hạt giống; hòa thì xét MAE_obs kiểm định. So sánh ngưỡng đã chọn với ngưỡng 1,0 trên tập kiểm tra chỉ mang tính mô tả và không vào họ Holm",
+  "luoi_delta": [
+   0.5,
+   1.0,
+   2.0
+  ],
+  "doi_chieu_GraFITi": "Đối chiếu mô tả định nghĩa thước đo và giao thức, không phải so sánh đối đầu"
+ }
+}

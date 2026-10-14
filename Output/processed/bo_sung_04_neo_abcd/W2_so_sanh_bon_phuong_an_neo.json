@@ -1,0 +1,118 @@
+{
+  "kiem_tra_luc": "2026-10-14T18:09:14",
+  "read_tag": "chot",
+  "run_tag": "bo_sung_04_neo_abcd",
+  "giao_thuc": "luoi_co_dinh_36h_vao_12h_ra",
+  "n_seeds": 3,
+  "tong_hop": {
+    "A": {
+      "mse_trung_binh": 0.48803148467291874,
+      "mse_do_lech_chuan": 0.00031349803171759144,
+      "mae_trung_binh": 0.4716980433374995,
+      "so_tham_so": 876,
+      "giay_trung_binh": 8.656666666666666,
+      "cac_gia_tri_mse": [
+        0.48767021892928886,
+        0.4881922099393916,
+        0.4882320251500758
+      ]
+    },
+    "B": {
+      "mse_trung_binh": 0.43603629987215403,
+      "mse_do_lech_chuan": 0.0003002346492432627,
+      "mae_trung_binh": 0.4372757183808977,
+      "so_tham_so": 876,
+      "giay_trung_binh": 8.02,
+      "cac_gia_tri_mse": [
+        0.4356979256740123,
+        0.436140156877622,
+        0.43627081706482784
+      ]
+    },
+    "C": {
+      "mse_trung_binh": 0.4507582165613255,
+      "mse_do_lech_chuan": 4.792230860684184e-05,
+      "mae_trung_binh": 0.44535043355789466,
+      "so_tham_so": 877,
+      "giay_trung_binh": 12.273333333333333,
+      "cac_gia_tri_mse": [
+        0.4507037759439169,
+        0.4507768512981594,
+        0.4507940224419001
+      ]
+    },
+    "D": {
+      "mse_trung_binh": 0.4427840435050731,
+      "mse_do_lech_chuan": 0.0003480345447394134,
+      "mae_trung_binh": 0.439678356603908,
+      "so_tham_so": 913,
+      "giay_trung_binh": 12.216666666666667,
+      "cac_gia_tri_mse": [
+        0.4425274278897356,
+        0.4426445092626345,
+        0.44318019336284914
+      ]
+    }
+  },
+  "thu_tu_tot_den_kem": [
+    "B",
+    "D",
+    "C",
+    "A"
+  ],
+  "bat_cap_theo_benh_nhan": {
+    "neoB_tru_neoA": {
+      "hieu_mse": -0.05199518480076479,
+      "hieu_mse_ci": [
+        -0.05902725153560755,
+        -0.04487305853988521
+      ],
+      "hieu_mae": -0.034422324956601885,
+      "hieu_mae_ci": [
+        -0.036523741294188325,
+        -0.03224423938632438
+      ],
+      "p_hai_phia_mse": 0.0,
+      "p_hai_phia_mae": 0.0
+    },
+    "neoC_tru_neoA": {
+      "hieu_mse": -0.03727326811159332,
+      "hieu_mse_ci": [
+        -0.04301918059682809,
+        -0.03126716280819139
+      ],
+      "hieu_mae": -0.026347609779604757,
+      "hieu_mae_ci": [
+        -0.028306787553462456,
+        -0.02434945677698717
+      ],
+      "p_hai_phia_mse": 0.0,
+      "p_hai_phia_mae": 0.0
+    },
+    "neoD_tru_neoA": {
+      "hieu_mse": -0.04524744116784576,
+      "hieu_mse_ci": [
+        -0.04993494809020165,
+        -0.04060845246266299
+      ],
+      "hieu_mae": -0.032019686733591485,
+      "hieu_mae_ci": [
+        -0.033789625391604565,
+        -0.03024747670891612
+      ],
+      "p_hai_phia_mse": 0.0,
+      "p_hai_phia_mae": 0.0
+    }
+  },
+  "env": {
+    "timestamp": "2026-10-14T18:06:58",
+    "run_tag": "bo_sung_04_neo_abcd",
+    "read_tag": "chot",
+    "python": "3.13.15",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130",
+    "matplotlib": "3.10.0",
+    "scipy": "1.16.3",
+    "gpu": "Tesla T4"
+  }
+}

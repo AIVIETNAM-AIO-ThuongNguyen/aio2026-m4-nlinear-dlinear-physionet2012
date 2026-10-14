@@ -1,0 +1,138 @@
+{
+ "kiem_tra_luc": "2026-10-14T19:07:07",
+ "so_tay": "W4_36",
+ "run_tag": "w4_36_kiem_dinh_b_huber_va_giam_k5",
+ "read_tag": "chot",
+ "ma_bam_khai_bao": "0b3b94e949f3dfb6fbac4be776d31f147e339b6fe522d335e63a55c88f19200e",
+ "tong_diem": 136752,
+ "mse_persistence": 0.5787542076552471,
+ "mae_persistence": 0.4659432814781591,
+ "moc": {
+  "ten": "giam_K5",
+  "he_so": 0.5,
+  "mse": 0.47696166588936884,
+  "mae": 0.4329189233359442
+ },
+ "b_huber": {
+  "mse_tb": 0.43397232777377537,
+  "mse_sd": 0.00029054897024785576,
+  "mae_tb": 0.43127043189128483,
+  "mae_sd": 0.0006675441989680927
+ },
+ "huber_delta": 1.0,
+ "tep_b_huber": [
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/bo_sung_14_huber_neo_b/runs/nlinear_neoB_huber_s0_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/bo_sung_14_huber_neo_b/runs/nlinear_neoB_huber_s1_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/bo_sung_14_huber_neo_b/runs/nlinear_neoB_huber_s2_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_17_luoi_nam_hat_giong/runs/nlinear_neoB_huber_s3_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_17_luoi_nam_hat_giong/runs/nlinear_neoB_huber_s4_patient_sums.npz"
+ ],
+ "nguon_b_huber": [
+  "bo_sung_14_huber_neo_b",
+  "bo_sung_14_huber_neo_b",
+  "bo_sung_14_huber_neo_b",
+  "w3_17_luoi_nam_hat_giong",
+  "w3_17_luoi_nam_hat_giong"
+ ],
+ "n_boot": 5000,
+ "hat_giong_lay_mau": 0,
+ "kiem_dinh": [
+  {
+   "ma": "K01",
+   "thuoc_do": "mse",
+   "cau_hoi": "NLinear neo B hàm Huber so với mốc trọng số giảm K bằng 5",
+   "ben_trai": "nlinear|B|huber",
+   "ben_phai": "giam_K5",
+   "hieu": -0.042989338115558495,
+   "ci": [
+    -0.052008014545642994,
+    -0.034116117666565665
+   ],
+   "p_goc": 0.0,
+   "ket_luan": "bên trái thắng",
+   "so_diem": 136752,
+   "so_ho_so": 1585,
+   "so_hat_giong_trai": 5,
+   "so_hat_giong_phai": 0
+  },
+  {
+   "ma": "K02",
+   "thuoc_do": "mae",
+   "cau_hoi": "NLinear neo B hàm Huber so với mốc trọng số giảm K bằng 5",
+   "ben_trai": "nlinear|B|huber",
+   "ben_phai": "giam_K5",
+   "hieu": -0.0016484914446276428,
+   "ci": [
+    -0.00518138266652105,
+    0.0017440606948819232
+   ],
+   "p_goc": 0.3544,
+   "ket_luan": "chưa phân biệt được",
+   "so_diem": 136752,
+   "so_ho_so": 1585,
+   "so_hat_giong_trai": 5,
+   "so_hat_giong_phai": 0
+  }
+ ],
+ "kiem_dinh_day_du": {
+  "ma": "K01_K02",
+  "cau_hoi": "NLinear neo B hàm Huber so với mốc trọng số giảm K bằng 5",
+  "ben_trai": "nlinear|B|huber",
+  "ben_phai": "giam_K5",
+  "so_hat_giong_trai": 5,
+  "so_hat_giong_phai": 0,
+  "so_ho_so": 1585,
+  "so_diem": 136752,
+  "hieu_mse": -0.042989338115558495,
+  "hieu_mse_ci": [
+   -0.052008014545642994,
+   -0.034116117666565665
+  ],
+  "hieu_mae": -0.0016484914446276428,
+  "hieu_mae_ci": [
+   -0.00518138266652105,
+   0.0017440606948819232
+  ],
+  "p_hai_phia_mse": 0.0,
+  "p_hai_phia_mae": 0.3544,
+  "ket_luan_mse": "bên trái thắng",
+  "ket_luan_mae": "chưa phân biệt được"
+ },
+ "kiem_dinh_mo_ta": {
+  "ma": "M02",
+  "cau_hoi": "Ngưỡng Huber đã chọn so với mốc (chỉ mô tả)",
+  "ben_trai": "nlinear|B|huber|delta_chon",
+  "ben_phai": "giam_K5",
+  "so_hat_giong_trai": 5,
+  "so_hat_giong_phai": 0,
+  "so_ho_so": 1585,
+  "so_diem": 136752,
+  "hieu_mse": -0.042240937223906885,
+  "hieu_mse_ci": [
+   -0.051666854837243516,
+   -0.03298871854165859
+  ],
+  "hieu_mae": 0.0018920862708084385,
+  "hieu_mae_ci": [
+   -0.0019144423039430967,
+   0.005496735047901283
+  ],
+  "p_hai_phia_mse": 0.0,
+  "p_hai_phia_mae": 0.3224,
+  "ket_luan_mse": "bên trái thắng",
+  "ket_luan_mae": "chưa phân biệt được",
+  "chi_mo_ta": true,
+  "delta_chon": 2.0
+ },
+ "env": {
+  "timestamp": "2026-10-14T19:05:22",
+  "run_tag": "w4_36_kiem_dinh_b_huber_va_giam_k5",
+  "read_tag": "chot",
+  "python": "3.13.15",
+  "numpy": "2.1.3",
+  "torch": "2.11.0+cu130",
+  "matplotlib": "3.10.0",
+  "scipy": "1.16.3",
+  "gpu": "Tesla T4"
+ }
+}

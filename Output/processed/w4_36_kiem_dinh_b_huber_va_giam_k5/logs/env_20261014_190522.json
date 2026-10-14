@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-10-14T19:05:22",
+  "run_tag": "w4_36_kiem_dinh_b_huber_va_giam_k5",
+  "read_tag": "chot",
+  "python": "3.13.15",
+  "numpy": "2.1.3",
+  "torch": "2.11.0+cu130",
+  "matplotlib": "3.10.0",
+  "scipy": "1.16.3",
+  "gpu": "Tesla T4"
+}

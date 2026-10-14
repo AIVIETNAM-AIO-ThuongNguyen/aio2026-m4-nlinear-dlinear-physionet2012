@@ -1,0 +1,485 @@
+{
+  "kiem_tra_luc": "2026-10-14T18:28:47",
+  "run_tag": "w3_18_chi_so_theo_nhom_kenh",
+  "read_tag": "chot",
+  "n_seeds": 3,
+  "n_boot": 2000,
+  "nguong_trung": 1e-06,
+  "nguong_phu_cao": 0.5,
+  "nguong_phu_thap": 0.1,
+  "mse_persistence": 0.5787542076552471,
+  "mae_persistence": 0.4659432814781591,
+  "tuong_quan_ty_le_trung_va_hieu_ung": 0.39962159417089194,
+  "tuong_quan_do_phu_va_hieu_ung": 0.5701577782180025,
+  "kiem_dinh_nhom": {
+    "phu_cao": {
+      "so_kenh": 6,
+      "so_diem": 73693.0,
+      "mse_neoA": 0.4562344041568912,
+      "mse_neoB": 0.4428600509027927,
+      "hieu_mse": -0.013374353254098529,
+      "hieu_mse_ci": [
+        -0.01865934553401235,
+        -0.008289351069586308
+      ],
+      "p_mse": 0.0,
+      "hieu_mae": -0.010398172192048832,
+      "hieu_mae_ci": [
+        -0.012561685196860198,
+        -0.008338680799405715
+      ],
+      "p_mae": 0.0,
+      "ty_le_trung_neo_trung_binh": 0.8303890641430075,
+      "do_phu_trung_binh": 0.6345980838883047
+    },
+    "phu_trung_binh": {
+      "so_kenh": 12,
+      "so_diem": 51041.0,
+      "mse_neoA": 0.48086603630713076,
+      "mse_neoB": 0.4355149802417424,
+      "hieu_mse": -0.045351056065388355,
+      "hieu_mse_ci": [
+        -0.0570289771804703,
+        -0.03065035592041548
+      ],
+      "p_mse": 0.0,
+      "hieu_mae": -0.04114709824434546,
+      "hieu_mae_ci": [
+        -0.04545987649936053,
+        -0.0371133010343104
+      ],
+      "p_mae": 0.0,
+      "ty_le_trung_neo_trung_binh": 0.49600420609884327,
+      "do_phu_trung_binh": 0.2578148732328543
+    },
+    "phu_thap": {
+      "so_kenh": 19,
+      "so_diem": 12018.0,
+      "mse_neoA": 0.713439531795165,
+      "mse_neoB": 0.396407908534708,
+      "hieu_mse": -0.317031623260457,
+      "hieu_mse_ci": [
+        -0.36586703870966775,
+        -0.2733972099696337
+      ],
+      "p_mse": 0.0,
+      "hieu_mae": -0.153175256216623,
+      "hieu_mae_ci": [
+        -0.1621552314282031,
+        -0.14438846522168397
+      ],
+      "p_mae": 0.0,
+      "ty_le_trung_neo_trung_binh": 0.42291217001494263,
+      "do_phu_trung_binh": 0.04669046433117494
+    }
+  },
+  "bang_kenh": [
+    {
+      "kenh": "Albumin",
+      "do_phu": 0.014949176305643182,
+      "ty_le_trung_neo": 0.6309148264984227,
+      "so_diem_muc_tieu": 128.0,
+      "mse_neoA": 0.8667147146275292,
+      "mse_neoB": 0.5749677427595269,
+      "hieu_ung_mse": -0.29174697186800236,
+      "hieu_ung_mae": -0.14999813425674802,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "ALP",
+      "do_phu": 0.018874868559411145,
+      "ty_le_trung_neo": 0.6132492113564669,
+      "so_diem_muc_tieu": 191.0,
+      "mse_neoA": 0.4624875850680703,
+      "mse_neoB": 0.16317250069028366,
+      "hieu_ung_mse": -0.29931508437778664,
+      "hieu_ung_mae": -0.16925697153544683,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "ALT",
+      "do_phu": 0.01948825797406239,
+      "ty_le_trung_neo": 0.6050473186119874,
+      "so_diem_muc_tieu": 193.0,
+      "mse_neoA": 0.38811557386300244,
+      "mse_neoB": 0.13631561740079026,
+      "hieu_ung_mse": -0.2517999564622122,
+      "hieu_ung_mae": -0.16284827161170154,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "AST",
+      "do_phu": 0.01959341044514546,
+      "ty_le_trung_neo": 0.604416403785489,
+      "so_diem_muc_tieu": 193.0,
+      "mse_neoA": 0.7193339475560513,
+      "mse_neoB": 0.38041939834539673,
+      "hieu_ung_mse": -0.33891454921065456,
+      "hieu_ung_mae": -0.15774202743619165,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "Bilirubin",
+      "do_phu": 0.019435681738520855,
+      "ty_le_trung_neo": 0.6107255520504732,
+      "so_diem_muc_tieu": 202.0,
+      "mse_neoA": 1.2379260305150666,
+      "mse_neoB": 0.44382978505805465,
+      "hieu_ung_mse": -0.794096245457012,
+      "hieu_ung_mae": -0.22482566562943812,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "BUN",
+      "do_phu": 0.07853137048720644,
+      "ty_le_trung_neo": 0.09337539432176656,
+      "so_diem_muc_tieu": 1118.0,
+      "mse_neoA": 0.8141369317054384,
+      "mse_neoB": 0.2621528302075874,
+      "hieu_ung_mse": -0.551984101497851,
+      "hieu_ung_mae": -0.2749035847653759,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "Cholesterol",
+      "do_phu": 0.002138100245355766,
+      "ty_le_trung_neo": 0.9249211356466877,
+      "so_diem_muc_tieu": 6.0,
+      "mse_neoA": 1.1264795219186972,
+      "mse_neoB": 1.134549115289275,
+      "hieu_ung_mse": 0.008069593370577888,
+      "hieu_ung_mae": 0.0038728547385997736,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "Creatinine",
+      "do_phu": 0.07888187872415002,
+      "ty_le_trung_neo": 0.09400630914826498,
+      "so_diem_muc_tieu": 1126.0,
+      "mse_neoA": 0.7670248921959277,
+      "mse_neoB": 0.23548748677022413,
+      "hieu_ung_mse": -0.5315374054257036,
+      "hieu_ung_mae": -0.24167526314115573,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "DiasABP",
+      "do_phu": 0.5576235541535226,
+      "ty_le_trung_neo": 0.8858044164037855,
+      "so_diem_muc_tieu": 10607.0,
+      "mse_neoA": 0.6032214614156806,
+      "mse_neoB": 0.5959080841810095,
+      "hieu_ung_mse": -0.00731337723467107,
+      "hieu_ung_mae": -0.006767138401777006,
+      "nhom": "phu_cao"
+    },
+    {
+      "kenh": "FiO2",
+      "do_phu": 0.17304591657903962,
+      "ty_le_trung_neo": 0.48201892744479496,
+      "so_diem_muc_tieu": 2609.0,
+      "mse_neoA": 0.6054251519372235,
+      "mse_neoB": 0.47974282613166896,
+      "hieu_ung_mse": -0.1256823258055545,
+      "hieu_ung_mae": -0.11382965161854797,
+      "nhom": "phu_trung_binh"
+    },
+    {
+      "kenh": "GCS",
+      "do_phu": 0.33203645285664213,
+      "ty_le_trung_neo": 0.3135646687697161,
+      "so_diem_muc_tieu": 5728.0,
+      "mse_neoA": 0.40710835443503696,
+      "mse_neoB": 0.23658046683436795,
+      "hieu_ung_mse": -0.170527887600669,
+      "hieu_ung_mae": -0.1608687535787508,
+      "nhom": "phu_trung_binh"
+    },
+    {
+      "kenh": "Glucose",
+      "do_phu": 0.07323869610935857,
+      "ty_le_trung_neo": 0.11987381703470032,
+      "so_diem_muc_tieu": 1067.0,
+      "mse_neoA": 0.7826007529812737,
+      "mse_neoB": 0.7508948278150639,
+      "hieu_ung_mse": -0.03170592516620985,
+      "hieu_ung_mae": -0.04354170564261972,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "HCO3",
+      "do_phu": 0.07693655800911321,
+      "ty_le_trung_neo": 0.0946372239747634,
+      "so_diem_muc_tieu": 1107.0,
+      "mse_neoA": 0.799464265998531,
+      "mse_neoB": 0.3855737878215036,
+      "hieu_ung_mse": -0.41389047817702745,
+      "hieu_ung_mae": -0.21338583363549757,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "HCT",
+      "do_phu": 0.10341745531019979,
+      "ty_le_trung_neo": 0.11167192429022083,
+      "so_diem_muc_tieu": 1458.0,
+      "mse_neoA": 0.7462117753050053,
+      "mse_neoB": 0.430748946898036,
+      "hieu_ung_mse": -0.31546282840696926,
+      "hieu_ung_mae": -0.16943869598464945,
+      "nhom": "phu_trung_binh"
+    },
+    {
+      "kenh": "HR",
+      "do_phu": 0.9139852786540483,
+      "ty_le_trung_neo": 0.9457413249211356,
+      "so_diem_muc_tieu": 17416.0,
+      "mse_neoA": 0.37097238097905594,
+      "mse_neoB": 0.35787510889177004,
+      "hieu_ung_mse": -0.013097272087285894,
+      "hieu_ung_mae": -0.01048001161274853,
+      "nhom": "phu_cao"
+    },
+    {
+      "kenh": "K",
+      "do_phu": 0.08145811426568525,
+      "ty_le_trung_neo": 0.12113564668769716,
+      "so_diem_muc_tieu": 1197.0,
+      "mse_neoA": 0.7099269320547681,
+      "mse_neoB": 0.5871726340307081,
+      "hieu_ung_mse": -0.12275429802406002,
+      "hieu_ung_mae": -0.07337045757047078,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "Lactate",
+      "do_phu": 0.05141955835962145,
+      "ty_le_trung_neo": 0.4927444794952681,
+      "so_diem_muc_tieu": 484.0,
+      "mse_neoA": 1.0698323338205862,
+      "mse_neoB": 0.58558293004712,
+      "hieu_ung_mse": -0.48424940377346615,
+      "hieu_ung_mae": -0.19395574514312186,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "Mg",
+      "do_phu": 0.07714686295127936,
+      "ty_le_trung_neo": 0.12302839116719243,
+      "so_diem_muc_tieu": 1139.0,
+      "mse_neoA": 0.5120903281866236,
+      "mse_neoB": 0.3700217523569286,
+      "hieu_ung_mse": -0.142068575829695,
+      "hieu_ung_mae": -0.06622186341296521,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "MAP",
+      "do_phu": 0.5553101997896951,
+      "ty_le_trung_neo": 0.8889589905362776,
+      "so_diem_muc_tieu": 10590.0,
+      "mse_neoA": 0.6703644220740829,
+      "mse_neoB": 0.6706461874649308,
+      "hieu_ung_mse": 0.000281765390847899,
+      "hieu_ung_mae": -0.0034614073869361217,
+      "nhom": "phu_cao"
+    },
+    {
+      "kenh": "MechVent",
+      "do_phu": 0.16454609183315808,
+      "ty_le_trung_neo": 1.0,
+      "so_diem_muc_tieu": 2425.0,
+      "mse_neoA": 0.0025443932386175374,
+      "mse_neoB": 0.0020674403111227723,
+      "hieu_ung_mse": -0.0004769529274947651,
+      "hieu_ung_mae": -0.003978575934860798,
+      "nhom": "phu_trung_binh"
+    },
+    {
+      "kenh": "Na",
+      "do_phu": 0.076130389064143,
+      "ty_le_trung_neo": 0.10410094637223975,
+      "so_diem_muc_tieu": 1158.0,
+      "mse_neoA": 0.7597103843118341,
+      "mse_neoB": 0.407453650424069,
+      "hieu_ung_mse": -0.3522567338877651,
+      "hieu_ung_mae": -0.18164664872068953,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "NIDiasABP",
+      "do_phu": 0.4271994391868209,
+      "ty_le_trung_neo": 0.5709779179810726,
+      "so_diem_muc_tieu": 7762.0,
+      "mse_neoA": 0.5614630636579786,
+      "mse_neoB": 0.5709245877260022,
+      "hieu_ung_mse": 0.009461524068023586,
+      "hieu_ung_mae": -0.002270315373315679,
+      "nhom": "phu_trung_binh"
+    },
+    {
+      "kenh": "NIMAP",
+      "do_phu": 0.422099544339292,
+      "ty_le_trung_neo": 0.5646687697160884,
+      "so_diem_muc_tieu": 7649.0,
+      "mse_neoA": 0.5367465527499302,
+      "mse_neoB": 0.5518645640259106,
+      "hieu_ung_mse": 0.015118011275980336,
+      "hieu_ung_mae": -0.0012699257224337845,
+      "nhom": "phu_trung_binh"
+    },
+    {
+      "kenh": "NISysABP",
+      "do_phu": 0.4279179810725552,
+      "ty_le_trung_neo": 0.567192429022082,
+      "so_diem_muc_tieu": 7768.0,
+      "mse_neoA": 0.5105375137077057,
+      "mse_neoB": 0.5187862423919151,
+      "hieu_ung_mse": 0.008248728684209339,
+      "hieu_ung_mae": -0.005050050145038454,
+      "nhom": "phu_trung_binh"
+    },
+    {
+      "kenh": "PaCO2",
+      "do_phu": 0.13431475639677531,
+      "ty_le_trung_neo": 0.338801261829653,
+      "so_diem_muc_tieu": 1523.0,
+      "mse_neoA": 0.7976956699624597,
+      "mse_neoB": 0.5036290769198358,
+      "hieu_ung_mse": -0.29406659304262384,
+      "hieu_ung_mae": -0.1306854852123457,
+      "nhom": "phu_trung_binh"
+    },
+    {
+      "kenh": "PaO2",
+      "do_phu": 0.134086926042762,
+      "ty_le_trung_neo": 0.338801261829653,
+      "so_diem_muc_tieu": 1522.0,
+      "mse_neoA": 0.4948334728655865,
+      "mse_neoB": 0.4205746458758898,
+      "hieu_ung_mse": -0.07425882698969671,
+      "hieu_ung_mae": -0.10043988211263599,
+      "nhom": "phu_trung_binh"
+    },
+    {
+      "kenh": "pH",
+      "do_phu": 0.14018576936558008,
+      "ty_le_trung_neo": 0.34069400630914826,
+      "so_diem_muc_tieu": 1609.0,
+      "mse_neoA": 0.0020932915380541405,
+      "mse_neoB": 0.0016970129072070835,
+      "hieu_ung_mse": -0.000396278630847057,
+      "hieu_ung_mae": -0.003932392141608683,
+      "nhom": "phu_trung_binh"
+    },
+    {
+      "kenh": "Platelets",
+      "do_phu": 0.08024886084822994,
+      "ty_le_trung_neo": 0.0971608832807571,
+      "so_diem_muc_tieu": 1112.0,
+      "mse_neoA": 0.7437338597983799,
+      "mse_neoB": 0.2804023449306669,
+      "hieu_ung_mse": -0.463331514867713,
+      "hieu_ung_mae": -0.26009918505467466,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "RespRate",
+      "do_phu": 0.2478969505783386,
+      "ty_le_trung_neo": 0.9703470031545741,
+      "so_diem_muc_tieu": 4581.0,
+      "mse_neoA": 0.5051606901091777,
+      "mse_neoB": 0.5129678603312955,
+      "hieu_ung_mse": 0.007807170222117743,
+      "hieu_ung_mae": 0.006378421264126688,
+      "nhom": "phu_trung_binh"
+    },
+    {
+      "kenh": "SaO2",
+      "do_phu": 0.045776375744830004,
+      "ty_le_trung_neo": 0.6107255520504732,
+      "so_diem_muc_tieu": 538.0,
+      "mse_neoA": 1.3697463795837288,
+      "mse_neoB": 0.8893236282787861,
+      "hieu_ung_mse": -0.4804227513049427,
+      "hieu_ung_mae": -0.05616003365785027,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "SysABP",
+      "do_phu": 0.557658604977217,
+      "ty_le_trung_neo": 0.8858044164037855,
+      "so_diem_muc_tieu": 10609.0,
+      "mse_neoA": 0.550544407247932,
+      "mse_neoB": 0.5440837895505716,
+      "hieu_ung_mse": -0.0064606176973603935,
+      "hieu_ung_mae": -0.003900141891383546,
+      "nhom": "phu_cao"
+    },
+    {
+      "kenh": "Temp",
+      "do_phu": 0.387031195233088,
+      "ty_le_trung_neo": 0.35331230283911674,
+      "so_diem_muc_tieu": 6407.0,
+      "mse_neoA": 0.44064666683982134,
+      "mse_neoB": 0.3975112320283264,
+      "hieu_ung_mse": -0.043135434811494955,
+      "hieu_ung_mae": -0.03581797869932335,
+      "nhom": "phu_trung_binh"
+    },
+    {
+      "kenh": "TropI",
+      "do_phu": 0.0,
+      "ty_le_trung_neo": 1.0,
+      "so_diem_muc_tieu": 0.0,
+      "mse_neoA": null,
+      "mse_neoB": null,
+      "hieu_ung_mse": null,
+      "hieu_ung_mae": null,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "TropT",
+      "do_phu": 0.0,
+      "ty_le_trung_neo": 1.0,
+      "so_diem_muc_tieu": 0.0,
+      "mse_neoA": null,
+      "mse_neoB": null,
+      "hieu_ung_mse": null,
+      "hieu_ung_mae": null,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "Urine",
+      "do_phu": 0.7074483000350508,
+      "ty_le_trung_neo": 0.7287066246056783,
+      "so_diem_muc_tieu": 13109.0,
+      "mse_neoA": 0.5230805783395284,
+      "mse_neoB": 0.5099543953953757,
+      "hieu_ung_mse": -0.013126182944152687,
+      "hieu_ung_mae": -0.006986550336937403,
+      "nhom": "phu_cao"
+    },
+    {
+      "kenh": "WBC",
+      "do_phu": 0.07287066246056782,
+      "ty_le_trung_neo": 0.09526813880126182,
+      "so_diem_muc_tieu": 1059.0,
+      "mse_neoA": 0.01493335546057357,
+      "mse_neoB": 0.006590665065201783,
+      "hieu_ung_mse": -0.008342690395371787,
+      "hieu_ung_mae": -0.031165540797205286,
+      "nhom": "phu_thap"
+    },
+    {
+      "kenh": "Weight",
+      "do_phu": 0.5155625657202945,
+      "ty_le_trung_neo": 0.6473186119873817,
+      "so_diem_muc_tieu": 11362.0,
+      "mse_neoA": 0.08494180333222337,
+      "mse_neoB": 0.04601439605560508,
+      "hieu_ung_mse": -0.03892740727661829,
+      "hieu_ung_mae": -0.030131489716002782,
+      "nhom": "phu_cao"
+    }
+  ]
+}

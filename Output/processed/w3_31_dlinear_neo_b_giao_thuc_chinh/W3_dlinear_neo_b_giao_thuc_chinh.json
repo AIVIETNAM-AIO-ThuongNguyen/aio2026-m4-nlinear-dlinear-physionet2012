@@ -1,0 +1,316 @@
+{
+ "kiem_tra_luc": "2026-10-14T18:42:45",
+ "run_tag": "w3_31_dlinear_neo_b_giao_thuc_chinh",
+ "read_tag": "chot",
+ "giao_thuc": "luoi_co_dinh_36h_vao_12h_ra",
+ "tong_diem": 136752,
+ "mse_persistence": 0.5787542076552471,
+ "mae_persistence": 0.4659432814781591,
+ "n_seeds": 5,
+ "n_boot": 5000,
+ "hat_giong_lay_mau": 0,
+ "muc_alpha": 0.05,
+ "don_vi_lay_mau": "ho_so_benh_nhan",
+ "huber_delta": 1.0,
+ "so_tham_so": {
+  "dlinear": 1752,
+  "nlinear": 876
+ },
+ "tung_hat_giong": [
+  {
+   "ho_mo_hinh": "DLinear",
+   "ham_mat_mat": "mse",
+   "hat_giong": 0,
+   "mse": 0.43543332453289746,
+   "mae": 0.43673644198578127,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_31_dlinear_neo_b_giao_thuc_chinh/runs/dlinear_neoB_mse_s0_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "DLinear",
+   "ham_mat_mat": "mse",
+   "hat_giong": 1,
+   "mse": 0.43628371435265373,
+   "mae": 0.4373913635193966,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_31_dlinear_neo_b_giao_thuc_chinh/runs/dlinear_neoB_mse_s1_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "DLinear",
+   "ham_mat_mat": "mse",
+   "hat_giong": 2,
+   "mse": 0.4357801269397217,
+   "mae": 0.4366233813063951,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_31_dlinear_neo_b_giao_thuc_chinh/runs/dlinear_neoB_mse_s2_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "DLinear",
+   "ham_mat_mat": "mse",
+   "hat_giong": 3,
+   "mse": 0.435794882565644,
+   "mae": 0.4366243516800528,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_31_dlinear_neo_b_giao_thuc_chinh/runs/dlinear_neoB_mse_s3_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "DLinear",
+   "ham_mat_mat": "mse",
+   "hat_giong": 4,
+   "mse": 0.4373500313675996,
+   "mae": 0.44018391168105225,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_31_dlinear_neo_b_giao_thuc_chinh/runs/dlinear_neoB_mse_s4_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "DLinear",
+   "ham_mat_mat": "huber",
+   "hat_giong": 0,
+   "mse": 0.4339845834173397,
+   "mae": 0.4325501494147401,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_31_dlinear_neo_b_giao_thuc_chinh/runs/dlinear_neoB_huber_s0_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "DLinear",
+   "ham_mat_mat": "huber",
+   "hat_giong": 1,
+   "mse": 0.43397324491021483,
+   "mae": 0.43102439068446957,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_31_dlinear_neo_b_giao_thuc_chinh/runs/dlinear_neoB_huber_s1_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "DLinear",
+   "ham_mat_mat": "huber",
+   "hat_giong": 2,
+   "mse": 0.43386452082184634,
+   "mae": 0.43142166709220997,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_31_dlinear_neo_b_giao_thuc_chinh/runs/dlinear_neoB_huber_s2_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "DLinear",
+   "ham_mat_mat": "huber",
+   "hat_giong": 3,
+   "mse": 0.43429135311768163,
+   "mae": 0.43071829682059487,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_31_dlinear_neo_b_giao_thuc_chinh/runs/dlinear_neoB_huber_s3_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "DLinear",
+   "ham_mat_mat": "huber",
+   "hat_giong": 4,
+   "mse": 0.4343405919526447,
+   "mae": 0.4310580420920369,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_31_dlinear_neo_b_giao_thuc_chinh/runs/dlinear_neoB_huber_s4_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "NLinear",
+   "ham_mat_mat": "mse",
+   "hat_giong": 0,
+   "mse": 0.4356979256740123,
+   "mae": 0.43683466818234057,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_18_chi_so_theo_nhom_kenh/runs/nlinear_neoB_mse_s0_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "NLinear",
+   "ham_mat_mat": "mse",
+   "hat_giong": 1,
+   "mse": 0.436140156877622,
+   "mae": 0.43718396640194807,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_18_chi_so_theo_nhom_kenh/runs/nlinear_neoB_mse_s1_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "NLinear",
+   "ham_mat_mat": "mse",
+   "hat_giong": 2,
+   "mse": 0.43627081706482784,
+   "mae": 0.43780852055840425,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_18_chi_so_theo_nhom_kenh/runs/nlinear_neoB_mse_s2_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "NLinear",
+   "ham_mat_mat": "mse",
+   "hat_giong": 3,
+   "mse": 0.43579801967461773,
+   "mae": 0.43710038279372726,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/bo_sung_13_neo_abcd_nam_hat_giong/runs/nlinear_neoB_s3_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "NLinear",
+   "ham_mat_mat": "mse",
+   "hat_giong": 4,
+   "mse": 0.43706805364125695,
+   "mae": 0.4392327095160581,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/bo_sung_13_neo_abcd_nam_hat_giong/runs/nlinear_neoB_s4_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "NLinear",
+   "ham_mat_mat": "huber",
+   "hat_giong": 0,
+   "mse": 0.43424779128814994,
+   "mae": 0.43161739283002715,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/bo_sung_14_huber_neo_b/runs/nlinear_neoB_huber_s0_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "NLinear",
+   "ham_mat_mat": "huber",
+   "hat_giong": 1,
+   "mse": 0.43362537647579946,
+   "mae": 0.432060800058126,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/bo_sung_14_huber_neo_b/runs/nlinear_neoB_huber_s1_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "NLinear",
+   "ham_mat_mat": "huber",
+   "hat_giong": 2,
+   "mse": 0.4338828615748441,
+   "mae": 0.4311943076579977,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/bo_sung_14_huber_neo_b/runs/nlinear_neoB_huber_s2_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "NLinear",
+   "ham_mat_mat": "huber",
+   "hat_giong": 3,
+   "mse": 0.43429822498887405,
+   "mae": 0.4302558229940493,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_17_luoi_nam_hat_giong/runs/nlinear_neoB_huber_s3_patient_sums.npz"
+  },
+  {
+   "ho_mo_hinh": "NLinear",
+   "ham_mat_mat": "huber",
+   "hat_giong": 4,
+   "mse": 0.4338073845412094,
+   "mae": 0.43122383591622376,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_17_luoi_nam_hat_giong/runs/nlinear_neoB_huber_s4_patient_sums.npz"
+  }
+ ],
+ "tom_tat": [
+  {
+   "khoa_cau_hinh": "dlinear|B|mse",
+   "so_hat_giong": 5,
+   "mse_trung_binh": 0.43612841595170326,
+   "mse_do_lech_chuan": 0.000747021360751157,
+   "mae_trung_binh": 0.4375118900345356,
+   "mae_do_lech_chuan": 0.0015274748841864689
+  },
+  {
+   "khoa_cau_hinh": "dlinear|B|huber",
+   "so_hat_giong": 5,
+   "mse_trung_binh": 0.4340908588439455,
+   "mse_do_lech_chuan": 0.00021149526196651762,
+   "mae_trung_binh": 0.4313545092208103,
+   "mae_do_lech_chuan": 0.0007133902995027071
+  },
+  {
+   "khoa_cau_hinh": "nlinear|B|mse",
+   "so_hat_giong": 5,
+   "mse_trung_binh": 0.43619499458646727,
+   "mse_do_lech_chuan": 0.0005421381097224042,
+   "mae_trung_binh": 0.43763204949049567,
+   "mae_do_lech_chuan": 0.0009633949652832419
+  },
+  {
+   "khoa_cau_hinh": "nlinear|B|huber",
+   "so_hat_giong": 5,
+   "mse_trung_binh": 0.43397232777377537,
+   "mse_do_lech_chuan": 0.00029054897024785576,
+   "mae_trung_binh": 0.43127043189128483,
+   "mae_do_lech_chuan": 0.0006675441989680927
+  }
+ ],
+ "nguon_doi_chung": {
+  "mse": [
+   "w3_18_chi_so_theo_nhom_kenh",
+   "w3_18_chi_so_theo_nhom_kenh",
+   "w3_18_chi_so_theo_nhom_kenh",
+   "bo_sung_13_neo_abcd_nam_hat_giong",
+   "bo_sung_13_neo_abcd_nam_hat_giong"
+  ],
+  "huber": [
+   "bo_sung_14_huber_neo_b",
+   "bo_sung_14_huber_neo_b",
+   "bo_sung_14_huber_neo_b",
+   "w3_17_luoi_nam_hat_giong",
+   "w3_17_luoi_nam_hat_giong"
+  ]
+ },
+ "kiem_dinh": [
+  {
+   "ma": "D01",
+   "cau_hoi": "DLinear có khác NLinear khi cùng neo B và cùng hàm bình phương không",
+   "ben_trai": "dlinear|B|mse",
+   "ben_phai": "nlinear|B|mse",
+   "so_hat_giong_trai": 5,
+   "so_hat_giong_phai": 5,
+   "so_ho_so": 1585,
+   "so_diem": 136752,
+   "hieu_mse": -6.657863476405257e-05,
+   "hieu_mse_ci": [
+    -0.00030617453346370505,
+    0.0001909132919879191
+   ],
+   "hieu_mae": -0.0001201594559600538,
+   "hieu_mae_ci": [
+    -0.00024065299036561227,
+    -6.685680791426901e-07
+   ],
+   "p_hai_phia_mse": 0.586,
+   "p_hai_phia_mae": 0.0488,
+   "ket_luan_mse": "chưa phân biệt được",
+   "ket_luan_mae": "bên trái thắng"
+  },
+  {
+   "ma": "D02",
+   "cau_hoi": "DLinear có khác NLinear khi cùng neo B và cùng hàm Huber không",
+   "ben_trai": "dlinear|B|huber",
+   "ben_phai": "nlinear|B|huber",
+   "so_hat_giong_trai": 5,
+   "so_hat_giong_phai": 5,
+   "so_ho_so": 1585,
+   "so_diem": 136752,
+   "hieu_mse": 0.00011853107016998853,
+   "hieu_mse_ci": [
+    -0.00015439863315303543,
+    0.0004062359992092148
+   ],
+   "hieu_mae": 8.407732952550457e-05,
+   "hieu_mae_ci": [
+    -4.676357574835306e-05,
+    0.00021357445668359698
+   ],
+   "p_hai_phia_mse": 0.4028,
+   "p_hai_phia_mae": 0.2172,
+   "ket_luan_mse": "chưa phân biệt được",
+   "ket_luan_mae": "chưa phân biệt được"
+  },
+  {
+   "ma": "D03",
+   "cau_hoi": "Trong DLinear neo B, hàm Huber có hơn hàm bình phương không",
+   "ben_trai": "dlinear|B|huber",
+   "ben_phai": "dlinear|B|mse",
+   "so_hat_giong_trai": 5,
+   "so_hat_giong_phai": 5,
+   "so_ho_so": 1585,
+   "so_diem": 136752,
+   "hieu_mse": -0.0020375571077578614,
+   "hieu_mse_ci": [
+    -0.0034034284572767894,
+    -0.0006158456472111483
+   ],
+   "hieu_mae": -0.006157380813725305,
+   "hieu_mae_ci": [
+    -0.00670050141229229,
+    -0.005613505385391988
+   ],
+   "p_hai_phia_mse": 0.0064,
+   "p_hai_phia_mae": 0.0,
+   "ket_luan_mse": "bên trái thắng",
+   "ket_luan_mae": "bên trái thắng"
+  }
+ ],
+ "env": {
+  "timestamp": "2026-10-14T18:40:20",
+  "run_tag": "w3_31_dlinear_neo_b_giao_thuc_chinh",
+  "read_tag": "chot",
+  "python": "3.13.15",
+  "numpy": "2.1.3",
+  "torch": "2.11.0+cu130",
+  "matplotlib": "3.10.0",
+  "scipy": "1.16.3",
+  "gpu": "Tesla T4"
+ }
+}

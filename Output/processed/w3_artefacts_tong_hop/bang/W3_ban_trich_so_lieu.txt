@@ -1,0 +1,140 @@
+BẢN TRÍCH SỐ LIỆU TUẦN 3
+Sinh tự động từ W3_HOP_NHAT_CHI_SO.json, không chép tay
+Thống kê lúc: 2026-10-14T18:57:36
+
+1. MỐC THAM CHIẾU VÀ MÔ HÌNH CƠ SỞ PERSISTENCE
+   Sai số bình phương của mốc giữ nguyên dự báo cuối: 0.5787542077
+   Sai số tuyệt đối của mốc: 0.4659432815
+   Mọi lần tính lại mốc trùng khít: True
+   Số lần huấn luyện trong sổ đăng ký: 101
+   Số cấu hình phân biệt: 18
+   Số lần được dùng sau khi gộp bản sao: 76
+   Số cặp bản sao lệch nhau quá ngưỡng: 0
+   Nguồn: notebook 22
+
+2. CẤU HÌNH XẾP THEO CHỈ TIÊU CHÍNH
+   nlinear|B|huber: bình phương 0.433972 cộng trừ 0.000291; tuyệt đối 0.43127 cộng trừ 0.000668; năng lực 0.074414; hạt giống 5; nguồn bo_sung_14_huber_neo_b,w3_17_luoi_nam_hat_giong
+   dlinear|B|huber: bình phương 0.434091 cộng trừ 0.000211; tuyệt đối 0.431355 cộng trừ 0.000713; năng lực 0.074234; hạt giống 5; nguồn w3_31_dlinear_neo_b_giao_thuc_chinh
+   nlinear|F|mse: bình phương 0.435637 cộng trừ 0.000281; tuyệt đối 0.436924 cộng trừ 0.0005; năng lực 0.06228; hạt giống 3; nguồn bo_sung_11_co_che_neo
+   nlinear|trung|mse: bình phương 0.435992 cộng trừ 0.00053; tuyệt đối 0.43714 cộng trừ 0.001023; năng lực 0.061817; hạt giống 5; nguồn w3_32_neo_theo_ty_le_trung_neo
+   dlinear|B|mse: bình phương 0.436128 cộng trừ 0.000747; tuyệt đối 0.437512 cộng trừ 0.001527; năng lực 0.061019; hạt giống 5; nguồn w3_31_dlinear_neo_b_giao_thuc_chinh
+   nlinear|E|mse: bình phương 0.436131 cộng trừ 0.000304; tuyệt đối 0.437298 cộng trừ 0.000497; năng lực 0.061478; hạt giống 3; nguồn bo_sung_11_co_che_neo
+   nlinear|B|mse: bình phương 0.436195 cộng trừ 0.000542; tuyệt đối 0.437632 cộng trừ 0.000963; năng lực 0.060761; hạt giống 5; nguồn bo_sung_13_neo_abcd_nam_hat_giong,w3_18_chi_so_theo_nhom_kenh
+   nlinear|B|mae: bình phương 0.439059 cộng trừ 0.000976; tuyệt đối 0.425822 cộng trừ 0.000156; năng lực 0.086108; hạt giống 5; nguồn w3_16_ba_ham_mat_mat_hai_neo,w3_22_neo_b_ham_tuyet_doi_nam_hat_giong
+   nlinear|lai|mse: bình phương 0.441425 cộng trừ 0.000135; tuyệt đối 0.439594 cộng trừ 0.000252; năng lực 0.05655; hạt giống 3; nguồn w3_24_neo_theo_nguong_do_phu
+   nlinear|D|mse: bình phương 0.442668 cộng trừ 0.000586; tuyệt đối 0.43979 cộng trừ 0.001005; năng lực 0.056129; hạt giống 5; nguồn bo_sung_04_neo_abcd,bo_sung_13_neo_abcd_nam_hat_giong
+   nlinear|C|mse: bình phương 0.450962 cộng trừ 0.00076; tuyệt đối 0.446028 cộng trừ 0.001415; năng lực 0.042742; hạt giống 5; nguồn bo_sung_04_neo_abcd,bo_sung_13_neo_abcd_nam_hat_giong
+   nlinear|O|mse: bình phương 0.485963 cộng trừ 6.6e-05; tuyệt đối 0.47022 cộng trừ 0.000323; năng lực -0.009179; hạt giống 3; nguồn bo_sung_11_co_che_neo
+   dlinear|A|huber: bình phương 0.486356 cộng trừ 0.000244; tuyệt đối 0.466287 cộng trừ 0.000177; năng lực -0.000737; hạt giống 3; nguồn bo_sung_06_huber
+   nlinear|A|huber: bình phương 0.486825 cộng trừ 0.000138; tuyệt đối 0.467123 cộng trừ 0.000673; năng lực -0.002532; hạt giống 5; nguồn w3_17_luoi_nam_hat_giong
+   nlinear|Z|mse: bình phương 0.487259 cộng trừ 0.000392; tuyệt đối 0.471517 cộng trừ 0.001041; năng lực -0.011963; hạt giống 3; nguồn bo_sung_11_co_che_neo
+   nlinear|A|mse: bình phương 0.488224 cộng trừ 0.000561; tuyệt đối 0.471729 cộng trừ 0.000958; năng lực -0.012418; hạt giống 5; nguồn bo_sung_13_neo_abcd_nam_hat_giong,w3_18_chi_so_theo_nhom_kenh
+   nlinear|A|mae: bình phương 0.489208 cộng trừ 0.000326; tuyệt đối 0.463606 cộng trừ 0.00018; năng lực 0.005016; hạt giống 5; nguồn bo_sung_06_huber,w3_33_neo_a_ham_tuyet_doi_nam_hat_giong
+   dlinear|A|mae: bình phương 0.489569 cộng trừ 0.000101; tuyệt đối 0.463752 cộng trừ 0.000142; năng lực 0.004704; hạt giống 3; nguồn bo_sung_06_huber
+   Tốt nhất theo chỉ tiêu chính: nlinear|B|huber
+   Tốt nhất theo chỉ tiêu phụ: nlinear|B|mae
+
+3. TỶ SỐ BIẾN THIÊN THEO TỪNG CHỈ TIÊU
+   dlinear|B|huber: tỷ số trên bình phương 3.1906; tỷ số trên tuyệt đối 0.9013
+   dlinear|B|mse: tỷ số trên bình phương 1.747; tỷ số trên tuyệt đối 3.684
+   nlinear|A|huber: tỷ số trên bình phương 0.7254; tỷ số trên tuyệt đối 1.0915
+   nlinear|A|mae: tỷ số trên bình phương 1.7438; tỷ số trên tuyệt đối 1.0213
+   nlinear|A|mse: tỷ số trên bình phương 1.7894; tỷ số trên tuyệt đối 1.1957
+   nlinear|B|huber: tỷ số trên bình phương 0.929; tỷ số trên tuyệt đối 1.5407
+   nlinear|B|mae: tỷ số trên bình phương 1.7287; tỷ số trên tuyệt đối 0.9606
+   nlinear|B|mse: tỷ số trên bình phương 1.8057; tỷ số trên tuyệt đối 1.9527
+   nlinear|C|mse: tỷ số trên bình phương 15.8486; tỷ số trên tuyệt đối 2.1973
+   nlinear|D|mse: tỷ số trên bình phương 1.684; tỷ số trên tuyệt đối 2.0501
+   nlinear|trung|mse: tỷ số trên bình phương 1.3939; tỷ số trên tuyệt đối 1.7699
+   Mọi phát biểu về biến thiên phải gắn tên chỉ tiêu
+
+4. KẾT QUẢ KIỂM ĐỊNH ĐỒNG NHẤT
+   Số lần lấy mẫu lặp: 5000; hạt giống lấy mẫu: 0; đơn vị lấy mẫu: ho_so_benh_nhan
+   S01 nlinear|B|mse trừ nlinear|A|mse
+      câu hỏi: Neo quan sát thật có tốt hơn neo bước cuối khi cùng dùng hàm bình phương không
+      bình phương -0.052029 khoảng từ -0.059156 đến -0.044837; giá trị p 0.0; bên trái thắng
+      tuyệt đối -0.034097 khoảng từ -0.036258 đến -0.031982; giá trị p 0.0; bên trái thắng
+   S02 nlinear|B|huber trừ nlinear|A|huber
+      câu hỏi: Khi cùng dùng hàm Huber, lợi thế của neo quan sát thật còn giữ không
+      bình phương -0.052853 khoảng từ -0.061039 đến -0.044371; giá trị p 0.0; bên trái thắng
+      tuyệt đối -0.035852 khoảng từ -0.03831 đến -0.033473; giá trị p 0.0; bên trái thắng
+   S03 nlinear|B|mae trừ nlinear|A|mae
+      câu hỏi: Khi cùng dùng hàm tuyệt đối, lợi thế của neo quan sát thật còn giữ không
+      bình phương -0.050149 khoảng từ -0.059907 đến -0.03967; giá trị p 0.0; bên trái thắng
+      tuyệt đối -0.037784 khoảng từ -0.04065 đến -0.034987; giá trị p 0.0; bên trái thắng
+   S04 nlinear|B|huber trừ nlinear|B|mse
+      câu hỏi: Trong neo quan sát thật, hàm Huber có hơn hàm bình phương không
+      bình phương -0.002223 khoảng từ -0.003597 đến -0.000768; giá trị p 0.004; bên trái thắng
+      tuyệt đối -0.006362 khoảng từ -0.006914 đến -0.00581; giá trị p 0.0; bên trái thắng
+   S05 nlinear|B|mae trừ nlinear|B|mse
+      câu hỏi: Trong neo quan sát thật, hàm tuyệt đối có hơn hàm bình phương không
+      bình phương 0.002864 khoảng từ -0.00076 đến 0.00683; giá trị p 0.1376; chưa phân biệt được
+      tuyệt đối -0.01181 khoảng từ -0.013198 đến -0.010409; giá trị p 0.0; bên trái thắng
+   S06 nlinear|B|mae trừ nlinear|B|huber
+      câu hỏi: Trong neo quan sát thật, hàm tuyệt đối có hơn hàm Huber không
+      bình phương 0.005087 khoảng từ 0.002778 đến 0.007674; giá trị p 0.0; bên phải thắng
+      tuyệt đối -0.005448 khoảng từ -0.00634 đến -0.004558; giá trị p 0.0; bên trái thắng
+   S07 nlinear|A|huber trừ nlinear|A|mse
+      câu hỏi: Trong neo bước cuối, hàm Huber có hơn hàm bình phương không
+      bình phương -0.001398 khoảng từ -0.002396 đến -0.00036; giá trị p 0.008; bên trái thắng
+      tuyệt đối -0.004606 khoảng từ -0.005069 đến -0.004141; giá trị p 0.0; bên trái thắng
+   S08 nlinear|A|mae trừ nlinear|A|mse
+      câu hỏi: Trong neo bước cuối, hàm tuyệt đối có hơn hàm bình phương không
+      bình phương 0.000985 khoảng từ -0.001199 đến 0.003183; giá trị p 0.3688; chưa phân biệt được
+      tuyệt đối -0.008123 khoảng từ -0.009149 đến -0.007106; giá trị p 0.0; bên trái thắng
+   S09 nlinear|lai|mse trừ nlinear|B|mse
+      câu hỏi: Luật chọn neo theo độ phủ có hơn neo quan sát thật đồng nhất không
+      bình phương 0.00523 khoảng từ 0.002543 đến 0.008361; giá trị p 0.0004; bên phải thắng
+      tuyệt đối 0.001962 khoảng từ 0.000876 đến 0.003094; giá trị p 0.0004; bên phải thắng
+   S10 nlinear|lai|mse trừ nlinear|A|mse
+      câu hỏi: Luật chọn neo theo độ phủ có hơn neo bước cuối đồng nhất không
+      bình phương -0.046799 khoảng từ -0.054131 đến -0.039375; giá trị p 0.0; bên trái thắng
+      tuyệt đối -0.032135 khoảng từ -0.034195 đến -0.030123; giá trị p 0.0; bên trái thắng
+   S11 dlinear|B|mse trừ nlinear|B|mse
+      câu hỏi: Nhánh DLinear với neo quan sát thật có khác nhánh NLinear không
+      bình phương -6.7e-05 khoảng từ -0.000306 đến 0.000191; giá trị p 0.586; chưa phân biệt được
+      tuyệt đối -0.00012 khoảng từ -0.000241 đến -1e-06; giá trị p 0.0488; bên trái thắng
+   S12 nlinear|C|mse trừ nlinear|B|mse
+      câu hỏi: Cổng học được dùng chung có hơn neo quan sát thật cố định không
+      bình phương 0.014767 khoảng từ 0.012049 đến 0.017706; giá trị p 0.0; bên phải thắng
+      tuyệt đối 0.008396 khoảng từ 0.007542 đến 0.009275; giá trị p 0.0; bên phải thắng
+   S13 nlinear|D|mse trừ nlinear|B|mse
+      câu hỏi: Cổng học được riêng kênh có hơn neo quan sát thật cố định không
+      bình phương 0.006473 khoảng từ 0.000855 đến 0.011712; giá trị p 0.0244; bên phải thắng
+      tuyệt đối 0.002158 khoảng từ 0.000804 đến 0.003528; giá trị p 0.0048; bên phải thắng
+   Nguồn: notebook 23
+
+5. TRỤC KÊNH
+   Số kênh: 37
+   Tương quan độ phủ và hiệu ứng: 0.570158
+   Kênh bị gắn cờ thang đo: MechVent, TropI, TropT, WBC, pH
+   Kênh được gỡ cờ so với bản sàng lọc: không có
+   Tương quan độ lệch chuẩn và sai số neo bước cuối, toàn bộ: 0.338109
+   Cùng hệ số sau khi loại kênh có cờ: 0.376906
+   Hệ số này không ổn định nên không trích làm bằng chứng
+   Nguồn: notebook 24
+
+6. TRỤC ĐỘ TRỄ
+   Cách chia chính thức: W3_25
+   1 đến 2 giờ: 17851.0 điểm, chiếm 13.054 phần trăm; hiệu -0.014152; giá trị p 0.0; đóng góp 3.553 phần trăm
+   3 đến 4 giờ: 21043.0 điểm, chiếm 15.388 phần trăm; hiệu -0.031623; giá trị p 0.0; đóng góp 9.359 phần trăm
+   5 đến 8 giờ: 40933.0 điểm, chiếm 29.932 phần trăm; hiệu -0.029616; giá trị p 0.0; đóng góp 17.049 phần trăm
+   9 đến 16 giờ: 45922.0 điểm, chiếm 33.58 phần trăm; hiệu -0.061731; giá trị p 0.0; đóng góp 39.868 phần trăm
+   trên 16 giờ: 9092.0 điểm, chiếm 6.649 phần trăm; hiệu -0.236214; giá trị p 0.0; đóng góp 30.204 phần trăm
+   không có phép đo trong cửa sổ: 1911.0 điểm, chiếm 1.397 phần trăm; hiệu 0.001236; giá trị p 0.316; đóng góp -0.033 phần trăm
+   Nguồn: notebook 24
+
+7. KẾT QUẢ ÂM TÍNH CỦA LUẬT CHỌN NEO
+   Kênh bị chuyển về neo bước cuối: DiasABP, HR, MAP, SysABP, Urine, Weight
+   Kênh mà neo quan sát thật thực sự làm xấu: NIMAP, NIDiasABP, NISysABP, Cholesterol, RespRate, MAP
+   Kênh trùng giữa hai tập: MAP
+   Tổng lợi ích bị trả lại: 0.078925
+   Nguồn: notebook 25
+
+8. DANH MỤC HÌNH
+   W3_T01_thu_hang_cau_hinh.png: Thứ hạng mọi cấu hình trên cùng mốc Persistence
+   W3_T02_khoang_tin_cay_hop_nhat.png: Khoảng tin cậy của mọi phép so sánh, tính lại đồng nhất
+   W3_T03_hieu_ung_theo_kenh.png: Lợi ích của neo theo độ phủ của từng kênh
+   W3_T04_phan_tang_do_tre.png: Hiệu ứng và đóng góp theo tầng độ trễ
+   W3_T05_ho_moc_va_hai_neo.png: Họ mốc mạnh dần và vị trí của hai neo
+   W3_T06_on_dinh_va_ket_qua_am_tinh.png: Ổn định theo hạt giống và kết quả âm tính của luật chọn neo

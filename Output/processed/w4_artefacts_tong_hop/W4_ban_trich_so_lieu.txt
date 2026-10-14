@@ -1,0 +1,12 @@
+Bản trích số liệu tuần 4, tạo lúc 2026-10-14T19:13:31
+Khai báo trước lúc 2026-10-14T18:59:37, mã băm 0b3b94e949f3dfb6
+Ngưỡng Huber chọn trên tập kiểm định: 2,0
+So với mốc giảm K bằng 5: thắng trên sai số bình phương
+Giả thuyết H2: không ủng hộ
+
+K01 mse hiệu -0,042989 khoảng [-0,052008; -0,034116] p 0,00020 Holm 0,00120
+K02 mae hiệu -0,001648 khoảng [-0,005181; 0,001744] p 0,35440 Holm 1,00000
+K03 mse hiệu -0,000656 khoảng [-0,001480; 0,000216] p 0,13160 Holm 0,52640
+K04 mae hiệu -0,000198 khoảng [-0,000608; 0,000213] p 0,39360 Holm 1,00000
+K05 mse hiệu -0,000829 khoảng [-0,001694; 0,000087] p 0,07040 Holm 0,35200
+K06 mae hiệu -0,000047 khoảng [-0,000473; 0,000394] p 0,87800 Holm 1,00000

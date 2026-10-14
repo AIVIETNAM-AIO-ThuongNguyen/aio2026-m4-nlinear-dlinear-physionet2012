@@ -1,0 +1,464 @@
+{
+ "kiem_tra_luc": "2026-10-14T19:11:52",
+ "so_tay": "W4_37",
+ "run_tag": "w4_37_nhanh_tinh_h2",
+ "read_tag": "chot",
+ "ma_bam_khai_bao": "0b3b94e949f3dfb6fbac4be776d31f147e339b6fe522d335e63a55c88f19200e",
+ "tong_diem": 136752,
+ "mse_persistence": 0.5787542076552471,
+ "mae_persistence": 0.4659432814781591,
+ "huber_delta": 1.0,
+ "d_static": 7,
+ "ten_tinh": [
+  "Age",
+  "Gender",
+  "Height",
+  "ICUType_1",
+  "ICUType_2",
+  "ICUType_3",
+  "ICUType_4"
+ ],
+ "so_tham_so_nen": 876,
+ "so_tham_so_them": 16,
+ "lech_khoi_tao": 0.0,
+ "hat_giong_xao_tron": 2026,
+ "tom_tat": [
+  {
+   "khoa_cau_hinh": "nlinear|B|huber",
+   "so_hat_giong": 5,
+   "tung_hat_mse": [
+    0.43424779128814994,
+    0.43362537647579946,
+    0.4338828615748441,
+    0.43429822498887405,
+    0.4338073845412094
+   ],
+   "tung_hat_mae": [
+    0.43161739283002715,
+    0.432060800058126,
+    0.4311943076579977,
+    0.4302558229940493,
+    0.43122383591622376
+   ],
+   "mse_tb": 0.43397232777377537,
+   "mse_sd": 0.00029054897024785576,
+   "mae_tb": 0.43127043189128483,
+   "mae_sd": 0.0006675441989680927
+  },
+  {
+   "khoa_cau_hinh": "nlinear|B|huber|tinh",
+   "so_hat_giong": 5,
+   "tung_hat_mse": [
+    0.43317352474547133,
+    0.43316211797898224,
+    0.4332593748637243,
+    0.43346046315088954,
+    0.43352564137420807
+   ],
+   "tung_hat_mae": [
+    0.4310335042437448,
+    0.431504982155218,
+    0.43137183599713474,
+    0.4309343742900628,
+    0.43051560601460065
+   ],
+   "mse_tb": 0.43331622442265505,
+   "mse_sd": 0.00016733509533336434,
+   "mae_tb": 0.4310720605401522,
+   "mae_sd": 0.00038967043121829084
+  },
+  {
+   "khoa_cau_hinh": "nlinear|B|huber|tinh_xao_tron",
+   "so_hat_giong": 5,
+   "tung_hat_mse": [
+    0.43405701911293043,
+    0.4341153863941933,
+    0.43426111096359377,
+    0.4342548672037375,
+    0.4340354134738187
+   ],
+   "tung_hat_mae": [
+    0.4311906615802832,
+    0.43135874812643127,
+    0.43129449649003815,
+    0.4306218958304171,
+    0.43112771615859774
+   ],
+   "mse_tb": 0.4341447594296547,
+   "mse_sd": 0.00010744658883862948,
+   "mae_tb": 0.43111870363715343,
+   "mae_sd": 0.00029180543685580025
+  }
+ ],
+ "he_so_tinh_trung_binh": {
+  "ten": [
+   "Age",
+   "Gender",
+   "Height",
+   "ICUType_1",
+   "ICUType_2",
+   "ICUType_3",
+   "ICUType_4"
+  ],
+  "alpha_w_tb": [
+   0.02163911797106266,
+   0.0051805282477289435,
+   -0.00828398261219263,
+   0.002032162225805223,
+   0.015798892825841904,
+   -0.023905151709914207,
+   0.01198089700192213
+  ],
+  "alpha_w_sd": [
+   0.0007394539851480051,
+   0.001092975108978573,
+   0.002586493913036845,
+   0.0013312997301376604,
+   0.001128655106913775,
+   0.0020372212593228007,
+   0.0004829146038190826
+  ],
+  "beta_w_tb": [
+   -0.0007596206414746121,
+   0.003143952647224069,
+   0.00505926962941885,
+   -0.004205221310257912,
+   -0.010362066887319088,
+   0.0073855300433933735,
+   0.006470513343811035
+  ],
+  "beta_w_sd": [
+   0.0014831810148512763,
+   0.001499758791594204,
+   0.001993738227981411,
+   0.0007586756211694113,
+   0.0019006501481842436,
+   0.0010868966006976593,
+   0.001083092815412232
+  ],
+  "alpha_b_tb": -0.19968821704387665,
+  "beta_b_tb": -0.024564228765666486
+ },
+ "he_so_tung_hat": [
+  {
+   "ten": [
+    "Age",
+    "Gender",
+    "Height",
+    "ICUType_1",
+    "ICUType_2",
+    "ICUType_3",
+    "ICUType_4"
+   ],
+   "alpha_w": [
+    0.0227936040610075,
+    0.00537662860006094,
+    -0.006211526226252317,
+    0.0018041166476905346,
+    0.017321322113275528,
+    -0.02748182788491249,
+    0.012635180726647377
+   ],
+   "alpha_b": -0.19703760743141174,
+   "beta_w": [
+    0.0014949789037927985,
+    0.0016769850626587868,
+    0.0033302034717053175,
+    -0.003036010079085827,
+    -0.009191861376166344,
+    0.007766333874315023,
+    0.006520961876958609
+   ],
+   "beta_b": -0.024596313014626503
+  },
+  {
+   "ten": [
+    "Age",
+    "Gender",
+    "Height",
+    "ICUType_1",
+    "ICUType_2",
+    "ICUType_3",
+    "ICUType_4"
+   ],
+   "alpha_w": [
+    0.020816713571548462,
+    0.005699458532035351,
+    -0.006318910047411919,
+    0.0005875389324501157,
+    0.016324715688824654,
+    -0.02291112020611763,
+    0.012278580106794834
+   ],
+   "alpha_b": -0.17362838983535767,
+   "beta_w": [
+    -0.0009799625258892775,
+    0.002662777667865157,
+    0.002855562372133136,
+    -0.004397705662995577,
+    -0.013724521733820438,
+    0.006829951889812946,
+    0.0067563108168542385
+   ],
+   "beta_b": -0.02130979858338833
+  },
+  {
+   "ten": [
+    "Age",
+    "Gender",
+    "Height",
+    "ICUType_1",
+    "ICUType_2",
+    "ICUType_3",
+    "ICUType_4"
+   ],
+   "alpha_w": [
+    0.021555423736572266,
+    0.006148950196802616,
+    -0.008577640168368816,
+    0.0026580397970974445,
+    0.015647677704691887,
+    -0.02241554483771324,
+    0.011522240936756134
+   ],
+   "alpha_b": -0.19453215599060059,
+   "beta_w": [
+    -0.0018296359339728951,
+    0.00546115729957819,
+    0.00583196897059679,
+    -0.004041615873575211,
+    -0.009925570338964462,
+    0.006592838559299707,
+    0.006486511789262295
+   ],
+   "beta_b": -0.02106156200170517
+  },
+  {
+   "ten": [
+    "Age",
+    "Gender",
+    "Height",
+    "ICUType_1",
+    "ICUType_2",
+    "ICUType_3",
+    "ICUType_4"
+   ],
+   "alpha_w": [
+    0.02177962101995945,
+    0.005367341451346874,
+    -0.012554740533232689,
+    0.003971694502979517,
+    0.014267738908529282,
+    -0.023313486948609352,
+    0.011939278803765774
+   ],
+   "alpha_b": -0.2277180403470993,
+   "beta_w": [
+    -0.00022741455177310854,
+    0.003726246766746044,
+    0.007749233394861221,
+    -0.004442743491381407,
+    -0.00933835282921791,
+    0.009129291400313377,
+    0.007802011910825968
+   ],
+   "beta_b": -0.015077113173902035
+  },
+  {
+   "ten": [
+    "Age",
+    "Gender",
+    "Height",
+    "ICUType_1",
+    "ICUType_2",
+    "ICUType_3",
+    "ICUType_4"
+   ],
+   "alpha_w": [
+    0.021250227466225624,
+    0.003310262458398938,
+    -0.0077570960856974125,
+    0.0011394212488085032,
+    0.015433009713888168,
+    -0.023403778672218323,
+    0.011529204435646534
+   ],
+   "alpha_b": -0.20552489161491394,
+   "beta_w": [
+    -0.0022560690995305777,
+    0.0021925964392721653,
+    0.005529379937797785,
+    -0.005108031444251537,
+    -0.009630028158426285,
+    0.006609234493225813,
+    0.004786770325154066
+   ],
+   "beta_b": -0.04077635705471039
+  }
+ ],
+ "tep_nen": [
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/bo_sung_14_huber_neo_b/runs/nlinear_neoB_huber_s0_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/bo_sung_14_huber_neo_b/runs/nlinear_neoB_huber_s1_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/bo_sung_14_huber_neo_b/runs/nlinear_neoB_huber_s2_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_17_luoi_nam_hat_giong/runs/nlinear_neoB_huber_s3_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_17_luoi_nam_hat_giong/runs/nlinear_neoB_huber_s4_patient_sums.npz"
+ ],
+ "nguon_nen": [
+  "bo_sung_14_huber_neo_b",
+  "bo_sung_14_huber_neo_b",
+  "bo_sung_14_huber_neo_b",
+  "w3_17_luoi_nam_hat_giong",
+  "w3_17_luoi_nam_hat_giong"
+ ],
+ "tep_tinh": [
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w4_37_nhanh_tinh_h2/runs/nlinear_neoB_huber_tinh_s0_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w4_37_nhanh_tinh_h2/runs/nlinear_neoB_huber_tinh_s1_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w4_37_nhanh_tinh_h2/runs/nlinear_neoB_huber_tinh_s2_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w4_37_nhanh_tinh_h2/runs/nlinear_neoB_huber_tinh_s3_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w4_37_nhanh_tinh_h2/runs/nlinear_neoB_huber_tinh_s4_patient_sums.npz"
+ ],
+ "tep_xao_tron": [
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w4_37_nhanh_tinh_h2/runs/nlinear_neoB_huber_tinhxaotron_s0_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w4_37_nhanh_tinh_h2/runs/nlinear_neoB_huber_tinhxaotron_s1_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w4_37_nhanh_tinh_h2/runs/nlinear_neoB_huber_tinhxaotron_s2_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w4_37_nhanh_tinh_h2/runs/nlinear_neoB_huber_tinhxaotron_s3_patient_sums.npz",
+  "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w4_37_nhanh_tinh_h2/runs/nlinear_neoB_huber_tinhxaotron_s4_patient_sums.npz"
+ ],
+ "n_boot": 5000,
+ "hat_giong_lay_mau": 0,
+ "kiem_dinh": [
+  {
+   "ma": "K03",
+   "thuoc_do": "mse",
+   "cau_hoi": "Nhánh tĩnh so với cùng mô hình không có nhánh tĩnh",
+   "ben_trai": "nlinear|B|huber|tinh",
+   "ben_phai": "nlinear|B|huber",
+   "hieu": -0.0006561033511203498,
+   "ci": [
+    -0.0014803982578532743,
+    0.00021588927959713714
+   ],
+   "p_goc": 0.1316,
+   "ket_luan": "chưa phân biệt được",
+   "so_diem": 136752,
+   "so_ho_so": 1585,
+   "so_hat_giong_trai": 5,
+   "so_hat_giong_phai": 5
+  },
+  {
+   "ma": "K04",
+   "thuoc_do": "mae",
+   "cau_hoi": "Nhánh tĩnh so với cùng mô hình không có nhánh tĩnh",
+   "ben_trai": "nlinear|B|huber|tinh",
+   "ben_phai": "nlinear|B|huber",
+   "hieu": -0.00019837135113261385,
+   "ci": [
+    -0.0006077559537736428,
+    0.00021284900857660452
+   ],
+   "p_goc": 0.3936,
+   "ket_luan": "chưa phân biệt được",
+   "so_diem": 136752,
+   "so_ho_so": 1585,
+   "so_hat_giong_trai": 5,
+   "so_hat_giong_phai": 5
+  },
+  {
+   "ma": "K05",
+   "thuoc_do": "mse",
+   "cau_hoi": "Nhánh tĩnh thật so với nhánh tĩnh nhận đặc trưng đã xáo trộn",
+   "ben_trai": "nlinear|B|huber|tinh",
+   "ben_phai": "nlinear|B|huber|tinh_xao_tron",
+   "hieu": -0.0008285350069996848,
+   "ci": [
+    -0.0016942654964389168,
+    8.685950974186065e-05
+   ],
+   "p_goc": 0.0704,
+   "ket_luan": "chưa phân biệt được",
+   "so_diem": 136752,
+   "so_ho_so": 1585,
+   "so_hat_giong_trai": 5,
+   "so_hat_giong_phai": 5
+  },
+  {
+   "ma": "K06",
+   "thuoc_do": "mae",
+   "cau_hoi": "Nhánh tĩnh thật so với nhánh tĩnh nhận đặc trưng đã xáo trộn",
+   "ben_trai": "nlinear|B|huber|tinh",
+   "ben_phai": "nlinear|B|huber|tinh_xao_tron",
+   "hieu": -4.664309700130639e-05,
+   "ci": [
+    -0.00047283329766139166,
+    0.0003936364690763063
+   ],
+   "p_goc": 0.878,
+   "ket_luan": "chưa phân biệt được",
+   "so_diem": 136752,
+   "so_ho_so": 1585,
+   "so_hat_giong_trai": 5,
+   "so_hat_giong_phai": 5
+  }
+ ],
+ "kiem_dinh_day_du": [
+  {
+   "ma": "K03_K04",
+   "cau_hoi": "Nhánh tĩnh so với cùng mô hình không có nhánh tĩnh",
+   "ben_trai": "nlinear|B|huber|tinh",
+   "ben_phai": "nlinear|B|huber",
+   "so_hat_giong_trai": 5,
+   "so_hat_giong_phai": 5,
+   "so_ho_so": 1585,
+   "so_diem": 136752,
+   "hieu_mse": -0.0006561033511203498,
+   "hieu_mse_ci": [
+    -0.0014803982578532743,
+    0.00021588927959713714
+   ],
+   "hieu_mae": -0.00019837135113261385,
+   "hieu_mae_ci": [
+    -0.0006077559537736428,
+    0.00021284900857660452
+   ],
+   "p_hai_phia_mse": 0.1316,
+   "p_hai_phia_mae": 0.3936,
+   "ket_luan_mse": "chưa phân biệt được",
+   "ket_luan_mae": "chưa phân biệt được"
+  },
+  {
+   "ma": "K05_K06",
+   "cau_hoi": "Nhánh tĩnh thật so với nhánh tĩnh nhận đặc trưng đã xáo trộn",
+   "ben_trai": "nlinear|B|huber|tinh",
+   "ben_phai": "nlinear|B|huber|tinh_xao_tron",
+   "so_hat_giong_trai": 5,
+   "so_hat_giong_phai": 5,
+   "so_ho_so": 1585,
+   "so_diem": 136752,
+   "hieu_mse": -0.0008285350069996848,
+   "hieu_mse_ci": [
+    -0.0016942654964389168,
+    8.685950974186065e-05
+   ],
+   "hieu_mae": -4.664309700130639e-05,
+   "hieu_mae_ci": [
+    -0.00047283329766139166,
+    0.0003936364690763063
+   ],
+   "p_hai_phia_mse": 0.0704,
+   "p_hai_phia_mae": 0.878,
+   "ket_luan_mse": "chưa phân biệt được",
+   "ket_luan_mae": "chưa phân biệt được"
+  }
+ ],
+ "env": {
+  "timestamp": "2026-10-14T19:08:28",
+  "run_tag": "w4_37_nhanh_tinh_h2",
+  "read_tag": "chot",
+  "python": "3.13.15",
+  "numpy": "2.1.3",
+  "torch": "2.11.0+cu130",
+  "matplotlib": "3.10.0",
+  "scipy": "1.16.3",
+  "gpu": "Tesla T4"
+ }
+}

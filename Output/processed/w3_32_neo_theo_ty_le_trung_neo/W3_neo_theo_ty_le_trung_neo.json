@@ -1,0 +1,423 @@
+{
+ "kiem_tra_luc": "2026-10-14T18:49:46",
+ "run_tag": "w3_32_neo_theo_ty_le_trung_neo",
+ "read_tag": "chot",
+ "giao_thuc": "luoi_co_dinh_36h_vao_12h_ra",
+ "tong_diem": 136752,
+ "mse_persistence": 0.5787542076552471,
+ "mae_persistence": 0.4659432814781591,
+ "n_seeds": 5,
+ "n_boot": 5000,
+ "hat_giong_lay_mau": 0,
+ "muc_alpha": 0.05,
+ "don_vi_lay_mau": "ho_so_benh_nhan",
+ "nguong_trung_gia_tri": 1e-06,
+ "ty_le_trung_train": {
+  "Albumin": 0.6355459615038676,
+  "ALP": 0.6089224680697968,
+  "ALT": 0.5999280446123404,
+  "AST": 0.5995682676740421,
+  "Bilirubin": 0.6017269293038316,
+  "BUN": 0.0849073574383882,
+  "Cholesterol": 0.9219284043892787,
+  "Creatinine": 0.0849073574383882,
+  "DiasABP": 0.8771361755711459,
+  "FiO2": 0.4749055585536967,
+  "GCS": 0.30778917071415723,
+  "Glucose": 0.11153085087245908,
+  "HCO3": 0.08796546141392336,
+  "HCT": 0.10019787731606404,
+  "HR": 0.9343407087605684,
+  "K": 0.10793308148947653,
+  "Lactate": 0.502068717395215,
+  "Mg": 0.11332973556395035,
+  "MAP": 0.875876956287102,
+  "MechVent": 1.0,
+  "Na": 0.09426155783414283,
+  "NIDiasABP": 0.5628710199676201,
+  "NIMAP": 0.5576542543622954,
+  "NISysABP": 0.5589134736463393,
+  "PaCO2": 0.3448461953588775,
+  "PaO2": 0.34502608382802663,
+  "pH": 0.34592552617377226,
+  "Platelets": 0.08544702284583558,
+  "RespRate": 0.9643820831084727,
+  "SaO2": 0.6143191221442705,
+  "SysABP": 0.8771361755711459,
+  "Temp": 0.34736463392696526,
+  "TropI": 1.0,
+  "TropT": 1.0,
+  "Urine": 0.7341248425975895,
+  "WBC": 0.08526713437668645,
+  "Weight": 0.6661270012592193
+ },
+ "ty_le_trung_test": {
+  "Albumin": 0.6309148264984227,
+  "ALP": 0.6132492113564669,
+  "ALT": 0.6050473186119874,
+  "AST": 0.604416403785489,
+  "Bilirubin": 0.6107255520504732,
+  "BUN": 0.09337539432176656,
+  "Cholesterol": 0.9249211356466877,
+  "Creatinine": 0.09400630914826498,
+  "DiasABP": 0.8858044164037855,
+  "FiO2": 0.48201892744479496,
+  "GCS": 0.3135646687697161,
+  "Glucose": 0.11987381703470032,
+  "HCO3": 0.0946372239747634,
+  "HCT": 0.11167192429022083,
+  "HR": 0.9457413249211356,
+  "K": 0.12113564668769716,
+  "Lactate": 0.4927444794952681,
+  "Mg": 0.12302839116719243,
+  "MAP": 0.8889589905362776,
+  "MechVent": 1.0,
+  "Na": 0.10410094637223975,
+  "NIDiasABP": 0.5709779179810726,
+  "NIMAP": 0.5646687697160884,
+  "NISysABP": 0.567192429022082,
+  "PaCO2": 0.338801261829653,
+  "PaO2": 0.338801261829653,
+  "pH": 0.34069400630914826,
+  "Platelets": 0.0971608832807571,
+  "RespRate": 0.9703470031545741,
+  "SaO2": 0.6107255520504732,
+  "SysABP": 0.8858044164037855,
+  "Temp": 0.35331230283911674,
+  "TropI": 1.0,
+  "TropT": 1.0,
+  "Urine": 0.7287066246056783,
+  "WBC": 0.09526813880126182,
+  "Weight": 0.6473186119873817
+ },
+ "luoi_nguong": [
+  0.5,
+  0.6,
+  0.7,
+  0.8,
+  0.9,
+  0.95
+ ],
+ "chon_nguong": [
+  {
+   "nguong": 0.5,
+   "so_kenh_neo_A": 21,
+   "kenh_neo_A": [
+    "Albumin",
+    "ALP",
+    "ALT",
+    "AST",
+    "Bilirubin",
+    "Cholesterol",
+    "DiasABP",
+    "HR",
+    "Lactate",
+    "MAP",
+    "MechVent",
+    "NIDiasABP",
+    "NIMAP",
+    "NISysABP",
+    "RespRate",
+    "SaO2",
+    "SysABP",
+    "TropI",
+    "TropT",
+    "Urine",
+    "Weight"
+   ],
+   "val_mse_obs": 0.4860783298721733
+  },
+  {
+   "nguong": 0.6,
+   "so_kenh_neo_A": 15,
+   "kenh_neo_A": [
+    "Albumin",
+    "ALP",
+    "Bilirubin",
+    "Cholesterol",
+    "DiasABP",
+    "HR",
+    "MAP",
+    "MechVent",
+    "RespRate",
+    "SaO2",
+    "SysABP",
+    "TropI",
+    "TropT",
+    "Urine",
+    "Weight"
+   ],
+   "val_mse_obs": 0.4811981556602195
+  },
+  {
+   "nguong": 0.7,
+   "so_kenh_neo_A": 10,
+   "kenh_neo_A": [
+    "Cholesterol",
+    "DiasABP",
+    "HR",
+    "MAP",
+    "MechVent",
+    "RespRate",
+    "SysABP",
+    "TropI",
+    "TropT",
+    "Urine"
+   ],
+   "val_mse_obs": 0.47770408327797764
+  },
+  {
+   "nguong": 0.8,
+   "so_kenh_neo_A": 9,
+   "kenh_neo_A": [
+    "Cholesterol",
+    "DiasABP",
+    "HR",
+    "MAP",
+    "MechVent",
+    "RespRate",
+    "SysABP",
+    "TropI",
+    "TropT"
+   ],
+   "val_mse_obs": 0.4761708707947938
+  },
+  {
+   "nguong": 0.9,
+   "so_kenh_neo_A": 6,
+   "kenh_neo_A": [
+    "Cholesterol",
+    "HR",
+    "MechVent",
+    "RespRate",
+    "TropI",
+    "TropT"
+   ],
+   "val_mse_obs": 0.47881658060009713
+  },
+  {
+   "nguong": 0.95,
+   "so_kenh_neo_A": 4,
+   "kenh_neo_A": [
+    "MechVent",
+    "RespRate",
+    "TropI",
+    "TropT"
+   ],
+   "val_mse_obs": 0.478464232372566
+  }
+ ],
+ "val_neo_b_hat_giong_0": 0.4787191439074925,
+ "nguong_chon": 0.8,
+ "so_kenh_neo_A": 9,
+ "tung_hat_giong": [
+  {
+   "khoa_cau_hinh": "nlinear|trung|mse",
+   "hat_giong": 0,
+   "mse": 0.435482148530188,
+   "mae": 0.43624329233046105,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_32_neo_theo_ty_le_trung_neo/runs/nlinear_neotrung_mse_s0_patient_sums.npz"
+  },
+  {
+   "khoa_cau_hinh": "nlinear|trung|mse",
+   "hat_giong": 1,
+   "mse": 0.4362178977456446,
+   "mae": 0.437212654024278,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_32_neo_theo_ty_le_trung_neo/runs/nlinear_neotrung_mse_s1_patient_sums.npz"
+  },
+  {
+   "khoa_cau_hinh": "nlinear|trung|mse",
+   "hat_giong": 2,
+   "mse": 0.43601462811081015,
+   "mae": 0.43727259554603204,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_32_neo_theo_ty_le_trung_neo/runs/nlinear_neotrung_mse_s2_patient_sums.npz"
+  },
+  {
+   "khoa_cau_hinh": "nlinear|trung|mse",
+   "hat_giong": 3,
+   "mse": 0.43549886601775617,
+   "mae": 0.43623743057239195,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_32_neo_theo_ty_le_trung_neo/runs/nlinear_neotrung_mse_s3_patient_sums.npz"
+  },
+  {
+   "khoa_cau_hinh": "nlinear|trung|mse",
+   "hat_giong": 4,
+   "mse": 0.43674520579944,
+   "mae": 0.43873394616407485,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_32_neo_theo_ty_le_trung_neo/runs/nlinear_neotrung_mse_s4_patient_sums.npz"
+  },
+  {
+   "khoa_cau_hinh": "nlinear|B|mse",
+   "hat_giong": 0,
+   "mse": 0.4356979256740123,
+   "mae": 0.43683466818234057,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_18_chi_so_theo_nhom_kenh/runs/nlinear_neoB_mse_s0_patient_sums.npz"
+  },
+  {
+   "khoa_cau_hinh": "nlinear|B|mse",
+   "hat_giong": 1,
+   "mse": 0.436140156877622,
+   "mae": 0.43718396640194807,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_18_chi_so_theo_nhom_kenh/runs/nlinear_neoB_mse_s1_patient_sums.npz"
+  },
+  {
+   "khoa_cau_hinh": "nlinear|B|mse",
+   "hat_giong": 2,
+   "mse": 0.43627081706482784,
+   "mae": 0.43780852055840425,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_18_chi_so_theo_nhom_kenh/runs/nlinear_neoB_mse_s2_patient_sums.npz"
+  },
+  {
+   "khoa_cau_hinh": "nlinear|B|mse",
+   "hat_giong": 3,
+   "mse": 0.43579801967461773,
+   "mae": 0.43710038279372726,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/bo_sung_13_neo_abcd_nam_hat_giong/runs/nlinear_neoB_s3_patient_sums.npz"
+  },
+  {
+   "khoa_cau_hinh": "nlinear|B|mse",
+   "hat_giong": 4,
+   "mse": 0.43706805364125695,
+   "mae": 0.4392327095160581,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/bo_sung_13_neo_abcd_nam_hat_giong/runs/nlinear_neoB_s4_patient_sums.npz"
+  },
+  {
+   "khoa_cau_hinh": "nlinear|A|mse",
+   "hat_giong": 0,
+   "mse": 0.48767021892928886,
+   "mae": 0.4708990451312976,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_18_chi_so_theo_nhom_kenh/runs/nlinear_neoA_mse_s0_patient_sums.npz"
+  },
+  {
+   "khoa_cau_hinh": "nlinear|A|mse",
+   "hat_giong": 1,
+   "mse": 0.4881922099393916,
+   "mae": 0.4716941052299915,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_18_chi_so_theo_nhom_kenh/runs/nlinear_neoA_mse_s1_patient_sums.npz"
+  },
+  {
+   "khoa_cau_hinh": "nlinear|A|mse",
+   "hat_giong": 2,
+   "mse": 0.4882320251500758,
+   "mae": 0.4725009796512093,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/w3_18_chi_so_theo_nhom_kenh/runs/nlinear_neoA_mse_s2_patient_sums.npz"
+  },
+  {
+   "khoa_cau_hinh": "nlinear|A|mse",
+   "hat_giong": 3,
+   "mse": 0.4878854660567329,
+   "mae": 0.47068534450001487,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/bo_sung_13_neo_abcd_nam_hat_giong/runs/nlinear_neoA_s3_patient_sums.npz"
+  },
+  {
+   "khoa_cau_hinh": "nlinear|A|mse",
+   "hat_giong": 4,
+   "mse": 0.4891385542360727,
+   "mae": 0.4728665562818657,
+   "tep": "/content/drive/MyDrive/AIO2026_Conquer_M4_DLinear_NLinear_Slot4/Output/processed/bo_sung_13_neo_abcd_nam_hat_giong/runs/nlinear_neoA_s4_patient_sums.npz"
+  }
+ ],
+ "tom_tat": [
+  {
+   "khoa_cau_hinh": "nlinear|trung|mse",
+   "so_hat_giong": 5,
+   "mse_trung_binh": 0.4359917492407678,
+   "mse_do_lech_chuan": 0.0005296201777000944,
+   "mae_trung_binh": 0.43713998372744756,
+   "mae_do_lech_chuan": 0.0010225263780190429
+  },
+  {
+   "khoa_cau_hinh": "nlinear|B|mse",
+   "so_hat_giong": 5,
+   "mse_trung_binh": 0.43619499458646727,
+   "mse_do_lech_chuan": 0.0005421381097224042,
+   "mae_trung_binh": 0.43763204949049567,
+   "mae_do_lech_chuan": 0.0009633949652832419
+  },
+  {
+   "khoa_cau_hinh": "nlinear|A|mse",
+   "so_hat_giong": 5,
+   "mse_trung_binh": 0.4882236948623124,
+   "mse_do_lech_chuan": 0.0005609729719832098,
+   "mae_trung_binh": 0.47172920615887576,
+   "mae_do_lech_chuan": 0.0009577638272940635
+  }
+ ],
+ "nguon_doi_chung": {
+  "B": [
+   "w3_18_chi_so_theo_nhom_kenh",
+   "w3_18_chi_so_theo_nhom_kenh",
+   "w3_18_chi_so_theo_nhom_kenh",
+   "bo_sung_13_neo_abcd_nam_hat_giong",
+   "bo_sung_13_neo_abcd_nam_hat_giong"
+  ],
+  "A": [
+   "w3_18_chi_so_theo_nhom_kenh",
+   "w3_18_chi_so_theo_nhom_kenh",
+   "w3_18_chi_so_theo_nhom_kenh",
+   "bo_sung_13_neo_abcd_nam_hat_giong",
+   "bo_sung_13_neo_abcd_nam_hat_giong"
+  ]
+ },
+ "kiem_dinh": [
+  {
+   "ma": "F01",
+   "cau_hoi": "Luật chọn neo theo tỷ lệ trùng neo có hơn neo quan sát thật đồng nhất không",
+   "ben_trai": "nlinear|trung|mse",
+   "ben_phai": "nlinear|B|mse",
+   "so_hat_giong_trai": 5,
+   "so_hat_giong_phai": 5,
+   "so_ho_so": 1585,
+   "so_diem": 136752,
+   "hieu_mse": -0.00020324534569955588,
+   "hieu_mse_ci": [
+    -0.0014354826139922339,
+    0.0010735511870360117
+   ],
+   "hieu_mae": -0.0004920657630481105,
+   "hieu_mae_ci": [
+    -0.0011541667296859311,
+    0.00018947986127074943
+   ],
+   "p_hai_phia_mse": 0.7236,
+   "p_hai_phia_mae": 0.1368,
+   "ket_luan_mse": "chưa phân biệt được",
+   "ket_luan_mae": "chưa phân biệt được"
+  },
+  {
+   "ma": "F02",
+   "cau_hoi": "Luật chọn neo theo tỷ lệ trùng neo có hơn neo bước cuối đồng nhất không",
+   "ben_trai": "nlinear|trung|mse",
+   "ben_phai": "nlinear|A|mse",
+   "so_hat_giong_trai": 5,
+   "so_hat_giong_phai": 5,
+   "so_ho_so": 1585,
+   "so_diem": 136752,
+   "hieu_mse": -0.05223194562154461,
+   "hieu_mse_ci": [
+    -0.05952142605079335,
+    -0.04488589908561855
+   ],
+   "hieu_mae": -0.034589222431428174,
+   "hieu_mae_ci": [
+    -0.03671731173065405,
+    -0.03254663763484734
+   ],
+   "p_hai_phia_mse": 0.0,
+   "p_hai_phia_mae": 0.0,
+   "ket_luan_mse": "bên trái thắng",
+   "ket_luan_mae": "bên trái thắng"
+  }
+ ],
+ "env": {
+  "timestamp": "2026-10-14T18:47:07",
+  "run_tag": "w3_32_neo_theo_ty_le_trung_neo",
+  "read_tag": "chot",
+  "python": "3.13.15",
+  "numpy": "2.1.3",
+  "torch": "2.11.0+cu130",
+  "matplotlib": "3.10.0",
+  "scipy": "1.16.3",
+  "gpu": "Tesla T4"
+ }
+}

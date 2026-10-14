@@ -1,0 +1,73 @@
+{
+  "finished_at": "2026-10-14T18:05:30",
+  "run_tag": "chot",
+  "env": {
+    "timestamp": "2026-10-14T18:03:51",
+    "python": "3.13.15",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130",
+    "matplotlib": "3.10.0",
+    "scipy": "1.16.3",
+    "cuda_available": true,
+    "device": "Tesla T4"
+  },
+  "protocol": {
+    "ten": "luoi_co_dinh",
+    "quan_sat_gio": 36,
+    "du_bao_gio": 12,
+    "muc_tieu": "moi o gio co phep do that trong 12 gio ke tiep",
+    "chuan_hoa": "chi tren tap huan luyen",
+    "nguon_du_lieu": "set-a va set-b, 8000 ho so"
+  },
+  "config": {
+    "seq_len": 36,
+    "pred_len": 12,
+    "n_seeds": 5,
+    "epochs": 60,
+    "patience": 10,
+    "batch": 128,
+    "lr": 0.001,
+    "split_seed": 0,
+    "clip_sigma": 0.0,
+    "drop_empty_channels": false
+  },
+  "data": {
+    "n_records": 8000,
+    "missing_rate_grid": 0.7975530686936937
+  },
+  "results": {
+    "persistence": 0.5787542076552471,
+    "dlinear": 0.4871939811217502,
+    "nlinear_A": 0.4882236948623124
+  },
+  "moc_persistence_mse": 0.5787542076552471,
+  "anchor_cost": {
+    "A": {
+      "n_params": 876,
+      "ms_per_step": 2.7
+    },
+    "B": {
+      "n_params": 876,
+      "ms_per_step": 2.88
+    },
+    "C": {
+      "n_params": 877,
+      "ms_per_step": 4.59
+    },
+    "D": {
+      "n_params": 913,
+      "ms_per_step": 3.89
+    }
+  },
+  "figures": [
+    "fig01_missingness_by_channel.png",
+    "fig02_observation_heatmap.png",
+    "fig03_delta_t.png",
+    "fig04_example_record.png",
+    "fig05_gate_seeds.png",
+    "fig06_error_by_horizon.png",
+    "fig07_anchor_gap.png",
+    "fig08_error_by_delta_t.png"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "kiem_tra_luc": "2026-10-14T18:12:42",
+  "read_tag": "chot",
+  "run_tag": "bo_sung_06_huber",
+  "huber_delta": 1.0,
+  "n_seeds": 3,
+  "mae_persistence": 0.4659432814781591,
+  "mse_persistence": 0.5787542076552471,
+  "tong_hop": {
+    "dlinear_mse": {
+      "mse": 0.4871939811217502,
+      "mae": 0.47060709729148853,
+      "ky_nang_mae": -0.010009385044549068,
+      "nguon": "lan chay chot"
+    },
+    "nlinear_A_mse": {
+      "mse": 0.4882236948623124,
+      "mae": 0.47172920615887576,
+      "ky_nang_mae": -0.012417637052700936,
+      "nguon": "lan chay chot"
+    },
+    "dlinear_huber": {
+      "mse": 0.48635577365631305,
+      "mse_do_lech_chuan": 0.00024416762769114726,
+      "mae": 0.46628650046167247,
+      "ky_nang_mae": -0.0007365896017614837,
+      "nguon": "so tay nay"
+    },
+    "nlinear_huber": {
+      "mse": 0.48683624614946347,
+      "mse_do_lech_chuan": 0.0001903626204250617,
+      "mae": 0.46747436998943354,
+      "ky_nang_mae": -0.003285976081804476,
+      "nguon": "so tay nay"
+    },
+    "dlinear_mae": {
+      "mse": 0.4895688409536581,
+      "mse_do_lech_chuan": 0.00010106169469888156,
+      "mae": 0.46375160929770126,
+      "ky_nang_mae": 0.0047037530543790895,
+      "nguon": "so tay nay"
+    },
+    "nlinear_mae": {
+      "mse": 0.48935698189781945,
+      "mse_do_lech_chuan": 0.0001870873854073076,
+      "mae": 0.46356073246288504,
+      "ky_nang_mae": 0.005113409848043204,
+      "nguon": "so tay nay"
+    }
+  },
+  "env": {
+    "timestamp": "2026-10-14T18:11:05",
+    "run_tag": "bo_sung_06_huber",
+    "read_tag": "chot",
+    "python": "3.13.15",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130",
+    "matplotlib": "3.10.0",
+    "scipy": "1.16.3",
+    "gpu": "Tesla T4"
+  }
+}
