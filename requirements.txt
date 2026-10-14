@@ -1,0 +1,6 @@
+# Môi trường Google Colab đã có sẵn các gói này; tệp dùng khi chạy ngoài Colab
+numpy>=2.0
+scipy>=1.11
+matplotlib>=3.8
+torch>=2.2
+adjustText>=1.0

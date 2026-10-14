@@ -1,0 +1,17 @@
+# Dữ liệu PhysioNet, mã nguồn đối chiếu tải về và tệp nặng không đưa lên kho
+Data/
+Code/
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.tar.gz
+*.zip
+
+# Tệp tạm
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+Thumbs.db
+desktop.ini
