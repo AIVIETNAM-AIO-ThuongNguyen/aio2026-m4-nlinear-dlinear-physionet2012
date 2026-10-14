@@ -1,0 +1,32 @@
+﻿so,ten_tep,giai_doan,ma_noi_bo,thu_muc_ket_qua,can_chay_truoc
+01,01-Chuan_bi_thu_muc_va_ma_nguon_doi_chieu.ipynb,A. Chuẩn bị và giao thức chính,W2_00,,
+02,02-Tai_du_lieu_PhysioNet_2012.ipynb,A. Chuẩn bị và giao thức chính,W2_00b,,01
+03,03-Tien_xu_ly_va_thuc_nghiem_chinh.ipynb,A. Chuẩn bị và giao thức chính,W2_01,chot,02
+04,04-Bon_phuong_an_neo.ipynb,B. Phương án neo và hàm mất mát,W2_04,bo_sung_04_neo_abcd,03
+05,05-Ham_mat_mat_Huber.ipynb,B. Phương án neo và hàm mất mát,W2_06,bo_sung_06_huber,03
+06,06-Bon_phuong_an_neo_nam_hat_giong.ipynb,B. Phương án neo và hàm mất mát,W2_13,bo_sung_13_neo_abcd_nam_hat_giong,03 04
+07,07-Huber_va_neo_B.ipynb,B. Phương án neo và hàm mất mát,W2_14,bo_sung_14_huber_neo_b,03 04 05
+08,08-Co_che_neo.ipynb,B. Phương án neo và hàm mất mát,W2_11,bo_sung_11_co_che_neo,03 04
+09,09-Ba_ham_mat_mat_hai_neo.ipynb,C. Phân tích cơ chế và đối chứng,W3_16,w3_16_ba_ham_mat_mat_hai_neo,03 04 05 07
+10,10-Luoi_nam_hat_giong.ipynb,C. Phân tích cơ chế và đối chứng,W3_17,w3_17_luoi_nam_hat_giong,03 04 05 06 07
+11,11-Chi_so_theo_nhom_kenh.ipynb,C. Phân tích cơ chế và đối chứng,W3_18,w3_18_chi_so_theo_nhom_kenh,03
+12,12-Phan_tang_theo_do_tre.ipynb,C. Phân tích cơ chế và đối chứng,W3_19,w3_19_phan_tang_theo_do_tre,03 11
+13,13-Moc_trung_binh_dich_chuyen.ipynb,C. Phân tích cơ chế và đối chứng,W3_20,w3_20_moc_trung_binh_dich_chuyen,03 04
+14,14-Doi_chung_moc_manh_nhat.ipynb,C. Phân tích cơ chế và đối chứng,W3_21,w3_21_doi_chung_moc_manh_nhat,03 04 09 11
+15,15-Neo_B_ham_tuyet_doi_nam_hat_giong.ipynb,C. Phân tích cơ chế và đối chứng,W3_22,w3_22_neo_b_ham_tuyet_doi_nam_hat_giong,03 04 09 11
+16,16-Kiem_tra_thang_do_kenh.ipynb,C. Phân tích cơ chế và đối chứng,W3_23,w3_23_kiem_tra_thang_do_kenh,03 11
+17,17-Neo_theo_nguong_do_phu.ipynb,C. Phân tích cơ chế và đối chứng,W3_24,w3_24_neo_theo_nguong_do_phu,03 11
+18,18-Phan_tang_gop_tang_cuoi.ipynb,C. Phân tích cơ chế và đối chứng,W3_25,w3_25_phan_tang_gop_tang_cuoi,03 11 12
+19,19-DLinear_neo_B_giao_thuc_chinh.ipynb,C. Phân tích cơ chế và đối chứng,W3_31,w3_31_dlinear_neo_b_giao_thuc_chinh,03
+20,20-Neo_A_ham_tuyet_doi_nam_hat_giong.ipynb,C. Phân tích cơ chế và đối chứng,W3_33,w3_33_neo_a_ham_tuyet_doi_nam_hat_giong,03
+21,21-Neo_theo_ty_le_trung_neo.ipynb,C. Phân tích cơ chế và đối chứng,W3_32,w3_32_neo_theo_ty_le_trung_neo,03
+22,22-Hop_nhat_chi_so.ipynb,D. Hợp nhất và kiểm định,W3.W4_26,w3_artefacts_tong_hop,03 09 10 11 12 13 14 15 16 17 18 19 20 21
+23,23-Kiem_dinh_dong_nhat.ipynb,D. Hợp nhất và kiểm định,W3.W4_27,w3_artefacts_tong_hop,03 09 10 11 12 13 14 15 16 17 18 22
+24,24-Bang_kenh_va_phan_tang.ipynb,D. Hợp nhất và kiểm định,W3.W4_28,w3_artefacts_tong_hop,03 09 10 11 12 13 14 15 16 17 18 22 23
+25,25-Bo_hinh_chinh.ipynb,D. Hợp nhất và kiểm định,W3.W4_29,w3_artefacts_tong_hop,03 09 10 11 12 13 14 15 16 17 18 22 23 24
+26,26-Goi_artefact_va_ban_trich.ipynb,D. Hợp nhất và kiểm định,W3.W4_30,w3_artefacts_tong_hop,03 09 10 11 12 13 14 15 16 17 18 22 23 24 25
+27,27-Khai_bao_truoc_va_cong_kiem_tra.ipynb,"E. Khai báo trước, H1, H2 và Holm",W4_34,w4_34_khai_bao_truoc_va_cong_tuan_4,03 22
+28,28-Quet_delta_Huber.ipynb,"E. Khai báo trước, H1, H2 và Holm",W4_35,w4_35_quet_delta_huber,03 27
+29,29-Kiem_dinh_B_Huber_va_giam_K5.ipynb,"E. Khai báo trước, H1, H2 và Holm",W4_36,w4_36_kiem_dinh_b_huber_va_giam_k5,03 27 28
+30,30-Nhanh_tinh_H2.ipynb,"E. Khai báo trước, H1, H2 và Holm",W4_37,w4_37_nhanh_tinh_h2,03 27 29
+31,31-Hop_nhat_Holm_hinh_va_artefact.ipynb,"E. Khai báo trước, H1, H2 và Holm",W4_38,w4_38_hop_nhat_holm_hinh_va_artefact_tuan_4,03 27 28 29 30
