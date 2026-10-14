@@ -1,6 +1,6 @@
 # Neo dự báo và độ trễ quan sát trong dự báo chuỗi thời gian lâm sàng thưa: NLinear và DLinear trên PhysioNet 2012
 
-Kho mã tái lập toàn bộ thực nghiệm của đề tài Module 4, AIO 2026 (Conquer, Slot 4). Mục tiêu của kho là để người chấm có thể (1) đọc ngay kết quả đã chạy trong từng notebook mà không cần GPU, và (2) chạy lại từ đầu trên Google Colab để kiểm chứng từng con số.
+Kho mã tái lập toàn bộ thực nghiệm của khảo sát thực nghiệm cho Module 4, AIO 2026 (Conquer, Slot 4). Mục tiêu của kho là để người đọc có thể: (1) đọc ngay kết quả đã chạy trong từng notebook mà không cần GPU, và (2) chạy lại từ đầu trên Google Colab để kiểm chứng từng con số.
 
 ## Câu hỏi nghiên cứu
 
@@ -13,7 +13,7 @@ PhysioNet/Computing in Cardiology Challenge 2012 (Silva et al., 2012; Goldberger
 
 Giao thức chính: lưới giờ cố định, 36 giờ vào, 12 giờ ra, 37 kênh, chia theo hồ sơ bệnh nhân, chuẩn hóa chỉ trên tập huấn luyện, chấm sai số chỉ tại ô có phép đo thật. Tập kiểm tra gồm 1.585 hồ sơ và 136.752 điểm có phép đo thật.
 
-## Cấu trúc kho
+## Cấu trúc Github repo này
 
 ```
 .
@@ -112,7 +112,7 @@ Các số dưới đây là MSE và MAE trung bình theo điểm trên thang đ�
 - K01, neo B Huber trừ mốc giảm K5: hiệu MSE −0,042989, khoảng tin cậy 95% [−0,052008; −0,034116], p Holm 0,0012 (notebook 29, 31).
 - H2, nhánh tĩnh: K03 p Holm 0,5264 và K05 p Holm 0,352, không đạt (notebook 30, 31).
 
-## Kết quả đã chạy trong kho
+## Kết quả đã chạy trong kho lưu trữ
 
 Thư mục `Output/processed/` giữ kết quả của lần chạy gốc để người chấm đối chiếu mà không cần chạy lại. Mỗi thư mục con ứng với một notebook (xem cột `thu_muc_ket_qua` trong `notebooks/DANH_MUC_NOTEBOOK.csv`).
 
@@ -130,11 +130,11 @@ Kết quả hiển thị trong notebook là kết quả của lần chạy gốc
 
 ## Phạm vi không bao gồm
 
-Các phân tích phụ đã được thay thế bởi phiên bản năm hạt giống hoặc bởi bước hợp nhất chung (độ nhạy cách chia, giao thức theo sự kiện, phạm vi chuẩn hóa, các lần thử độ nhạy ban đầu) không nằm trong kho này vì không đóng góp vào kết luận cuối.
+Các phân tích phụ đã được thay thế bởi phiên bản năm hạt giống hoặc bởi bước hợp nhất chung (độ nhạy cách chia, giao thức theo sự kiện, phạm vi chuẩn hóa, các lần thử độ nhạy ban đầu) không nằm trong kho này vì có ý nghĩa trong kết quả cuối cùng.
 
 ## Báo cáo
 
-Báo cáo cuối: [cần bổ sung liên kết].
+Báo cáo cuối: https://drive.google.com/file/d/1wU3lexzK-5TT00WUYe9UcEfNkI6_BXnS/view?usp=sharing.
 
 ## Tài liệu tham khảo chính
 
